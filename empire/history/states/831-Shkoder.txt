@@ -1,0 +1,20 @@
+state={
+	id=831
+	name="STATE_831"
+	manpower = 348105
+	
+	state_category = rural
+
+	history={
+		owner = SER
+		victory_points = { 9780 3 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		13224 9780 3896
+	}
+}

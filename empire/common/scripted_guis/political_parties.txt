@@ -1,0 +1,34 @@
+scripted_gui = {
+	party_popularity_number = {
+		window_name = "party_popularity_number_container"
+		triggers = {
+		    syndicalist_icon_visible = {
+				has_government = syndicalist
+			}
+			vanguardist_icon_visible = {
+				has_government = vanguardist
+			}
+			democratic_socialist_icon_visible = {
+				has_government = democratic_socialist
+			}
+			social_liberal_icon_visible = {
+				has_government = social_liberal
+			}
+			market_liberal_icon_visible = {
+				has_government = market_liberal
+			}
+			social_conservative_icon_visible = {
+				has_government = social_conservative
+			}
+			national_conservative_icon_visible = {
+				has_government = national_conservative
+			}
+			integralist_icon_visible = {
+				has_government = integralist
+			}
+			social_nationalist_icon_visible = {
+				has_government = social_nationalist
+			}
+		}
+	}
+}

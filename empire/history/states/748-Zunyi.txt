@@ -1,0 +1,21 @@
+state={
+	id=748
+	name="STATE_748"
+	provinces={
+		1010 4325 10763 
+	}
+	history={
+		owner = YUN
+		add_core_of = YUN
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			1010 3
+		}
+	}
+	manpower=1500000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

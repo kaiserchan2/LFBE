@@ -1,0 +1,27 @@
+﻿capital = 330
+
+oob = "MON_1936"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1933.6.10"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_liberal = 100
+}
+
+create_country_leader = {
+	name = "Damdin Sükhbaatar"
+	desc = "POLITICS_DAMDIN_SUKHBAATAR_DESC"
+	picture = "Portrait_Mongolia_Damdin_Sukhbaatar.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}

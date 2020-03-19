@@ -1,0 +1,32 @@
+﻿capital = 314
+
+oob = "ELS_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1935.1.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_liberal = 100
+}
+
+create_country_leader = {
+	name = "Arturo Araujo Fajardo"
+	desc = "POLITICS_ARTURO_ARAUJO_DESC"
+	picture = "Portrait_Salvador_Arturo_Araujo.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+

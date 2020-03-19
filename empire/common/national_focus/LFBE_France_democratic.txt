@@ -1,0 +1,159 @@
+focus_tree = {
+	id = FRA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+     
+    default = no
+	
+	focus = {
+		id = FRA_radical_victory
+		icon = GFX_goal_ideology_social_democrat
+		x = 21
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			OR = {
+				has_country_flag = radical_victory
+			}
+			OR = {
+				has_government = social_liberal
+			}
+		}
+
+		bypass = {
+		    OR = {
+			    has_country_flag = radical_victory
+			}
+			OR = {
+				has_government = social_liberal
+			}
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_reconciliation_with_unions
+		icon = GFX_goal_tblra_union_agreement
+		x = 19
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_radical_victory
+		}
+		
+		available = {
+			OR = {
+				has_country_flag = radical_victory
+			}
+			OR = {
+				has_government = social_liberal
+			}
+		}
+
+		bypass = {
+		    OR = {
+			    has_country_flag = radical_victory
+			}
+			OR = {
+				has_government = social_liberal
+			}
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_reconciliation_with_unions
+		}
+	}	
+	
+	focus = {
+		id = FRA_liberal_victory
+		icon = GFX_goal_ideology_social_liberal
+		x = 26
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			OR = {
+				has_country_flag = liberal_victory
+			}
+		}
+
+		bypass = {
+			has_country_flag = liberal_victory
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_popular_democrat_victory
+		icon = GFX_goal_ideology_social_conservative
+		x = 31
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			OR = {
+				has_country_flag = popular_democrat_victory
+			}
+		}
+
+		bypass = {
+			has_country_flag = popular_democrat_victory
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_conservative_victory
+		icon = GFX_goal_authoritarian
+		x = 36
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			OR = {
+				has_country_flag = conservative_victory
+			}
+		}
+
+		bypass = {
+			has_country_flag = conservative_victory
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+}

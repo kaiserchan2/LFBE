@@ -1,0 +1,21 @@
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 18000
+	
+	state_category = large_town
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 6
+			3943 = {
+				naval_base = 2
+			}
+		}
+	} 
+	provinces={	
+		3943 3974 11901 984
+	}
+}

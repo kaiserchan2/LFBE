@@ -1,0 +1,31 @@
+state={
+	id=799
+	name="STATE_799"
+	manpower = 2481001
+	
+	state_category = metropolis
+	
+	history={
+		owner = FRA
+		victory_points = {
+			587 5 
+		}
+		victory_points = {
+			3547 3
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		add_core_of = FRA
+	
+	}
+
+	provinces={
+		587 3547 9522 3488
+	}
+	
+}

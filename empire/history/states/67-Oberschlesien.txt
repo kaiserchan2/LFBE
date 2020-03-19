@@ -1,0 +1,32 @@
+
+state={
+	id=67
+	name="STATE_67"
+	manpower = 3729839
+	resources={
+		steel=38 # was: 60
+		aluminium=13 # was: 20
+	}
+	
+	state_category = metropolis
+
+	history={
+		victory_points = {
+			9511 3
+		}
+		victory_points = {
+			6464 5
+		}
+		owner = POL
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		add_core_of = POL
+	}
+
+	provinces={
+		479 6512 9457 9511 11467 506 6464 
+	}
+}

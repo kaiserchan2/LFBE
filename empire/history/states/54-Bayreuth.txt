@@ -1,0 +1,31 @@
+
+state={
+	id=54
+	name="STATE_54"
+	manpower = 3365556
+
+	state_category = large_city
+
+	history={
+		owner = BAV
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			11544 12 
+		}
+		victory_points = {
+			9557 3 
+		}
+		victory_points = {
+			6421 3 
+		}
+		add_core_of = BAV
+	}
+
+	provinces={
+		3474 6421 9416 9557 9572 11404 11417 11529 11544 13116 
+	}
+}

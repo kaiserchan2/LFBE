@@ -1,0 +1,18 @@
+state={
+	id=753
+	name="STATE_753"
+	provinces={
+		1257 4375 4403 9966 10787 10903 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = SIH
+		add_core_of = SIH
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+}

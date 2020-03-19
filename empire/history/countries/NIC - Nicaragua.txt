@@ -1,0 +1,34 @@
+﻿capital = 317
+
+oob = "NIC_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 10
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1932.10.6"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_conservative = 100
+}
+
+create_country_leader = {
+	name = "Adolfo Díaz Recinos"
+	desc = "POLITICS_ADOLFO_DIAZ_DESC"
+	picture = "Portrait_Nicaragua_Adolfo_Diaz.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}

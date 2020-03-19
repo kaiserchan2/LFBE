@@ -1,0 +1,26 @@
+state={
+	id=817
+	name="STATE_817"
+	manpower = 563846
+
+	state_category = town
+
+
+	history={
+		owner = PRG
+		victory_points = {
+			3522 3 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = PRG
+	}
+
+	provinces={
+		3522 6487 9456 11359
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=813
+	name="STATE_813"
+	manpower = 301272
+	
+	state_category = town
+
+	history={
+		owner = IBR
+		victory_points = {
+			6880 3
+		}
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			industrial_complex = 1
+			3790 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = IBR
+	}
+
+	provinces={
+		3790 6880
+	}
+}

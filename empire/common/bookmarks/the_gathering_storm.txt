@@ -1,0 +1,174 @@
+bookmarks = {
+	bookmark = {
+		name = "LFBE_SCENARIO_NAME"
+		desc = "LFBE_SCENARIO_DESC"
+		date = 1936.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "FRA"
+		default = yes
+
+		"FRA" = {
+			history = "FRA_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = market_liberal
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+		
+		"RUS" = {
+			history = "RUS_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = market_liberal
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		"ITA" = {
+			history = "ITA_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_liberal
+			ideas = {
+			    
+			}
+
+			focuses = {
+				
+			}
+		}
+		
+		"ENG" = {
+			history = "ENG_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = market_liberal
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		"IBR" = {
+			history = "IBR_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = democratic_socialist
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+		
+
+		"USA" = {
+			history = "USA_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_liberal
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"BRA" = {
+			history = "BRA_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = integralist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---" = {
+			history = "OTHER_END_OF_BEAUTIFUL_EPOCH_DESC"
+		}
+
+		"CAT" = {
+			minor = yes
+			history = "CAT_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = national_conservative
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"MEX" = {
+			minor = yes
+			history = "MEX_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_nationalist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"ARG" = {
+			minor = yes
+			history = "ARG_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_liberal
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SAF" = {
+			minor = yes
+			history = "SAF_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_conservative
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"MAN" = {
+			minor = yes
+			history = "MAN_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = market_liberal
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"AST" = {
+			minor = yes
+			history = "AST_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_liberal
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

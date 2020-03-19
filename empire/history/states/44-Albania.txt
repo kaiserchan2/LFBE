@@ -1,0 +1,35 @@
+
+state={
+	id=44
+	name="STATE_44"
+	manpower = 1003000
+	resources={
+		aluminium=2 # was: 3
+		chromium=2 # was: 3
+	}
+	
+	state_category = town
+	
+	history={
+		owner = ITA
+		victory_points = {
+			9914 5
+		}
+		victory_points = {
+			13222 3
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1 
+			air_base = 3
+			13222 = {
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces={
+		3884 9875 9914 11762 13222
+	}
+}

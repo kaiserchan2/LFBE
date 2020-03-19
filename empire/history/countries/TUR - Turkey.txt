@@ -1,0 +1,134 @@
+﻿capital = 49
+
+oob = "TUR_1936"
+if = {
+	set_naval_oob = "TUR_1936_naval_legacy"
+}
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+}
+
+
+set_politics = {
+	ruling_party = vanguardist
+	last_election = "1935.2.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	vanguardist = 100
+}
+
+set_convoys = 20
+set_stability = 0.55
+
+create_country_leader = {
+	name = "Mustafa Subhi"
+	desc = "POLITICS_MUSTAFA SUBHI_DESC"
+	picture = "Portrait_Turkey_Mustafa_Subhi.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {}
+}
+
+create_corps_commander = {
+	name = "Cemil Cahit Toydemir"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	traits = { desert_fox }
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nazmi Solok"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	traits = { trickster }
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Salih Omurtak"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	traits = {  hill_fighter }
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Rauf Orbay"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	traits = { bold }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+
+### Ship Variants ###
+	create_equipment_variant = {
+		name = "Kocatepe Class"
+		type = destroyer_1
+		upgrades = {
+			ship_torpedo_upgrade = 2
+			destroyer_engine_upgrade = 2
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+		}
+	}
+	create_equipment_variant = {
+		name = "Tinaztepe Class"
+		type = destroyer_1
+		obsolete = yes
+		upgrades = {
+			ship_torpedo_upgrade = 1
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+		}
+	}
+	create_equipment_variant = {
+		name = "Dumlupinar Class"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 2
+			sub_engine_upgrade = 2
+			sub_stealth_upgrade = 2
+			sub_torpedo_upgrade = 2
+		}
+	}
+}

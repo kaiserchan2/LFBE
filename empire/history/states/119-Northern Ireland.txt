@@ -1,0 +1,31 @@
+
+state={
+	id=119
+	name="STATE_119"
+
+	history={
+		owner = IRE
+		victory_points = {
+			11257 1			
+		}
+		victory_points = {
+			337 1			
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = IRE
+	}
+
+	provinces={
+		385 3217 3242 11257 337 11303
+	}
+	manpower=425256
+	buildings_max_level_factor=1
+	state_category=town
+	
+	resources={
+		aluminium=2
+	}
+}

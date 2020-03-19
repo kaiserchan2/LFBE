@@ -1,0 +1,23 @@
+state={
+	id=823
+	name="STATE_823"
+	manpower = 783786
+
+	state_category = large_town
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		victory_points = {
+			3696 5
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		9687 713 3709 3696
+	}
+}

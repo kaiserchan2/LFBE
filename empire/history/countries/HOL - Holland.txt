@@ -1,0 +1,228 @@
+﻿capital = 7
+
+oob = "HOL_1936"
+set_naval_oob = "HOL_1936_naval_legacy"
+
+set_research_slots = 3
+set_stability = 0.75
+set_war_support = 0.15
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+    early_submarine = 1
+	basic_destroyer = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    syndicalist = 4
+	vanguardist = 6
+	democratic_socialist = 9
+	social_liberal = 28
+	market_liberal = 7
+	social_conservative = 22
+	national_conservative = 13
+	integralist = 5
+	social_nationalist = 6
+}
+
+set_convoys = 200
+
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Netherlands_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Netherlands_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Netherlands_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = national_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Netherlands_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = integralist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Johan Willem Albarda"
+	desc = "POLITICS_JOHAN_ALBARDA_DESC"
+	picture = "Portrait_Netherlands_Johan_Albarda.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Netherlands_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Henk Sneevliet"
+	desc = "POLITICS_HENK_SNEEVLIET_DESC"
+	picture = "Portrait_Netherlands_Henk_Sneevliet.dds"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Louis de Visser"
+	desc = "POLITICS_LOU_DE_VISSER_DESC"
+	picture = "Portrait_Netherlands_Louis_de_Visser.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Anton Mussert"
+	desc = "POLITICS_ANTON_MUSSERT_DESC"
+	picture = "Portrait_Netherlands_Anton_Mussert.dds"
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = {}
+}
+
+create_field_marshal = {
+	name = "Izaak Reijnders"
+	id = 980
+	gfx = "GFX_portrait_hol_izaak_reijnders"
+	traits = { old_guard inflexible_strategist trait_reckless }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Petrus Wilhelmus Best"
+	gfx = "GFX_portrait_hol_petrus_wilhelmus_best"
+	traits = { organizer skilled_staffer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Henri Winkelman"
+	gfx = "Portrait_Netherlands_Henri_Winkelman.dds"
+	traits = { organizer skilled_staffer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Godfried van Voorst tot Voorst"
+	gfx = "GFX_portrait_hol_godfried_van_voorst_tot_voorst"
+	traits = { brilliant_strategist career_officer armor_officer politically_connected }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Johannes Theodorus Furstner"
+	gfx = "GFX_portrait_hol_johannes_theodorus_furstner"
+	traits = { caustic_personality fly_swatter blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Conrad Helfrich"
+	gfx = "GFX_portrait_hol_conrad_helfrich"
+	traits = { seawolf superior_tactician bold navy_career_officer }
+	id = 981
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Karel Doorman"
+	gfx = "GFX_portrait_hol_karel_doorman"
+	traits = { fleet_protector naval_lineage bold }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+
+### VARIANTS ###
+# 1936 Start #
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "K-XIV Class"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 2
+			sub_engine_upgrade = 2
+			sub_stealth_upgrade = 2
+			sub_torpedo_upgrade = 2
+		}
+	}
+}

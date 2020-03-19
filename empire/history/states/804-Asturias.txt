@@ -1,0 +1,24 @@
+state= {
+	id=804
+	name="STATE_804"
+	manpower = 792000
+	
+	state_category = large_city
+
+	history= {
+		owner = IBR
+		victory_points = {
+			11707 5 
+		}
+		buildings = {
+			infrastructure = 7
+			dockyard = 1
+			industrial_complex = 2
+		}
+		add_core_of = IBR
+	}
+
+	provinces = {
+        9719 11707 6749 3729 3744       
+	}
+}

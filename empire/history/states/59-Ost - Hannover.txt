@@ -1,0 +1,39 @@
+
+state={
+	id=59
+	name="STATE_59"
+	manpower = 2852782
+	resources={
+		oil=2 # was: 4
+	}
+	
+	state_category = city
+
+	history={
+		owner = PRG
+		victory_points = {
+			3326 7 
+		}
+		victory_points = {
+			6377 12 
+		}
+		victory_points = {
+			6298 1 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			6325 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = PRG
+	}
+
+	provinces={
+		6218 526 374 3271 3326 3395 6349 6377 3234 6263 6325 11493 9264 6298 9238 
+	}
+}

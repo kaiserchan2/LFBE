@@ -1,0 +1,21 @@
+state={
+	id=833
+	name="STATE_833"
+	manpower = 368400
+	
+	state_category = town
+
+	history={
+		owner = ASR
+		victory_points = { 1578 2 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = ASR
+	}
+
+	provinces={
+		901 1549 1578 1634 1606 6883 10882
+	}
+}

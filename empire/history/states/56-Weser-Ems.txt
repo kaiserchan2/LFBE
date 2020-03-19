@@ -1,0 +1,29 @@
+state={
+	id=56
+	name="STATE_56"
+	manpower = 2177520
+	
+	state_category = city
+
+	history={
+		owner = PRG
+		victory_points = {
+			336 3 
+		}
+		victory_points = {
+			11388 3
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 3
+
+		}
+		add_core_of = PRG
+	}
+
+	provinces={
+		241 247 309 336 9281 11233 11264 11388 
+	}
+}

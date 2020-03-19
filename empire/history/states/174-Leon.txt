@@ -1,0 +1,32 @@
+
+state={
+	id=174
+	name="STATE_174"
+	manpower = 430856
+	
+	state_category = town
+
+	history={
+		owner = IBR
+		victory_points = {
+			3874 3
+		}
+		victory_points = {
+			3727 3
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+			11707 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = IBR
+	}
+
+	provinces={
+		794 726 918 920 3725 3727 3918 3920 6746 6907 9699 11843 4024 874 6867 3874 9770 11756 9839
+	}
+}

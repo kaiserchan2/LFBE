@@ -1,0 +1,33 @@
+focus_tree = {
+	id = FRA_integralist_focus
+	
+	country = {
+		factor = 0
+	}
+	
+	 focus = {
+		id = FRA_march_on_paris
+		icon = GFX_goal_national_populism
+		x = 25
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			OR = {
+				has_country_flag = march_on_paris
+			}
+		}
+
+		bypass = {
+			has_country_flag = march_on_paris
+		}
+		
+		completion_reward = {
+			
+		}
+	}	
+	
+}

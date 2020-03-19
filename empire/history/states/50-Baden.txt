@@ -1,0 +1,41 @@
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		aluminium=6 # was: 10.000
+	}
+
+	state_category = metropolis
+	history={
+		owner = SWA
+		victory_points = {
+			9517 15
+		}
+		victory_points = {
+			11499 3
+		}
+		victory_points = {
+			6555 3
+		}
+		victory_points = {
+			3530 7
+		}
+		victory_points = {
+			6568 5
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		add_core_of = SWA
+
+	}
+
+	provinces={
+		519 694 3690 6555 6934 9517 9545 9655 11486 11499 13126 6581 6568 3530 
+	}
+	manpower=5938853
+}

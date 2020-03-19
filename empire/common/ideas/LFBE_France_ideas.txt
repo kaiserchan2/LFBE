@@ -1,0 +1,20 @@
+ideas = {
+    country = {
+	    FRA_reconciliation_with_unions = {
+		
+		    allowed = {
+			    original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			picture = idea_generic_scales
+			
+			modifier = {
+			    production_factory_max_efficiency_factor = 0.05
+				production_speed_industrial_complex_factor = 0.10
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,33 @@
+focus_tree = {
+	id = FRA_socialist_focus
+	
+	country = {
+		factor = 0
+	}
+	
+	 focus = {
+		id = FRA_fourth_revolution
+		icon = GFX_goal_HOL_fires_of_revolution
+		x = 25
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			OR = {
+				has_country_flag = fourth_revolution
+			}
+		}
+
+		bypass = {
+			has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}	
+	
+}
