@@ -8,7 +8,7 @@ ideas = {
 			}
 			
 			removal_cost = -1
-			picture = idea_generic_scales
+			picture = GFX_idea_generic_scales
 			
 			modifier = {
 			    production_factory_max_efficiency_factor = 0.05
