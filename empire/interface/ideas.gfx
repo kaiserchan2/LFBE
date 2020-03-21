@@ -713,6 +713,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/idea_generic_scales.tga"
 	}
 	spriteType = {
+		name = "GFX_idea_economic_control_icon"
+		texturefile = "gfx/interface/ideas/ideas/economic_control_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_coins"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_coins.tga"
+	}
+	spriteType = {
 		name = "GFX_idea_generic_trade"
 		texturefile = "gfx/interface/ideas/ideas/idea_generic_trade.tga"
 	}

@@ -1,0 +1,77 @@
+ideas = {
+    country = {
+	
+	    FRA_reconciliation_with_unions = {
+		    picture = generic_scales
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    production_factory_max_efficiency_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+			}	
+		}
+		
+		FRA_bank_nationalised = {
+		    picture = state_economy
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    consumer_goods_factor = -0.05
+			}	
+		}
+		
+		FRA_labour_inspection_created = {
+		    picture = economic_control_icon
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    stability_factor = 0.03
+				production_speed_arms_factory_factor = 0.05
+			}	
+		}
+		
+		FRA_rights_expanded = {
+		    picture = monroe_doctrine
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    industrial_capacity_factory = 0.1
+			}	
+		}
+		
+		FRA_taxation_increased = {
+		    picture = generic_coins
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    political_power_cost = -0.3
+			}	
+		}
+		
+	}
+}

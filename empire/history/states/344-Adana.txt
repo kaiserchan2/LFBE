@@ -7,8 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = TUR
-		add_core_of = TUR
+		owner = FRA
 		victory_points = {
 			9893 1
 		}
@@ -28,7 +27,6 @@ state={
 				naval_base = 3
 			}
 		}
-		set_demilitarized_zone = yes
 	}
 
 	provinces={

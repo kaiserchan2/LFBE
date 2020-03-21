@@ -391,6 +391,18 @@ spriteTypes = {
 
 	### Other ###
 	SpriteType = {
+		name = "GFX_goal_continuous_suppression"
+		texturefile = "gfx/interface/goals/goal_continuous_suppression.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_undercut_the_king"
+		texturefile = "gfx/interface/goals/focus_undercut_the_king.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_women_industry"
+		texturefile = "gfx/interface/goals/goal_women_industry.tga"
+	}
+	SpriteType = {
 		name = "GFX_focus_russian_cooperation"
 		texturefile = "gfx/interface/goals/focus_russian_cooperation.tga"
 	}
@@ -1547,7 +1559,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_socialist_infrastructure"
-		texturefile = "gfx/interface/goals/BEL_socialist_infrastructure2.tga"
+		texturefile = "gfx/interface/goals/socialist_infrastructure2.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_the_lion_roars"
