@@ -721,6 +721,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/idea_generic_coins.tga"
 	}
 	spriteType = {
+		name = "GFX_idea_king_visit"
+		texturefile = "gfx/interface/ideas/ideas/king_visit.tga"
+	}
+	spriteType = {
 		name = "GFX_idea_generic_trade"
 		texturefile = "gfx/interface/ideas/ideas/idea_generic_trade.tga"
 	}

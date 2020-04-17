@@ -1,0 +1,26 @@
+state={
+	id=800
+	name="STATE_800"
+	manpower = 1042891
+	
+	state_category = city
+	
+	history={
+		owner = FRA
+		victory_points = {
+			11516 3 
+		}
+		victory_points = { 9559 3 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+	
+	}
+
+	provinces={
+		521 9559 11502 3629 11516
+	}
+	
+}

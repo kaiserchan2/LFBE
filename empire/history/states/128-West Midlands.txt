@@ -15,7 +15,7 @@ state={
 			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 3
-			air_base = 3
+			air_base = 6
 		}
 		victory_points = {
 			9297 20
@@ -24,12 +24,6 @@ state={
 			3301 7
 		}
 		add_core_of = ENG
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 4
-			}
-		}
 	}
 
 	provinces={

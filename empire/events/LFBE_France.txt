@@ -1,0 +1,15 @@
+add_namespace = france
+
+### Introduction ###
+country_event = { 
+	id = france.1
+	title = france.1.t
+	desc = france.1.d
+	picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = france.1.a
+	}
+}

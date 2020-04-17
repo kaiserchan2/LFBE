@@ -2,7 +2,7 @@
 state={
 	id=21
 	name="STATE_21" # Provence
-	manpower = 2825709
+	manpower = 2770240
 	resources={
 		aluminium=60 # was: 120
 	}
@@ -18,15 +18,16 @@ state={
 			11834 25
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 7
 			industrial_complex = 1
 			dockyard = 2
 			fuel_silo = 1
 			911 = {
-				naval_base = 10
+				naval_base = 5
 				coastal_bunker = 1
 			}
 			11834 = {
+				naval_base = 3
 				coastal_bunker = 1
 			}
 		}
@@ -34,6 +35,6 @@ state={
 	}
 
 	provinces={
-		911 956 958 3928 11834 11849 11875 6975 3961 3762 3764 9736 762 11713
+		11849 11834 911 3928 958 11875 3961 6975 9736 3764 11713
 	}
 }

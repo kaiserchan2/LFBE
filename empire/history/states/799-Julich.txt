@@ -6,12 +6,12 @@ state={
 	state_category = metropolis
 	
 	history={
-		owner = FRA
+		owner = RHI
 		victory_points = {
 			587 5 
 		}
 		victory_points = {
-			3547 3
+			3547 12
 		}
 		buildings = {
 			infrastructure = 8
@@ -20,7 +20,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = FRA
+		add_core_of = RHI
 	
 	}
 

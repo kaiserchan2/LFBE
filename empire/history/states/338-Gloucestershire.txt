@@ -21,13 +21,14 @@ state={
 			industrial_complex = 2
 			dockyard = 3
 			540 = {
-				naval_base = 10
-				coastal_bunker = 6
+				naval_base = 4
 			}
-			anti_air_building = 2
-			radar_station = 1
+			3369 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = ENG
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

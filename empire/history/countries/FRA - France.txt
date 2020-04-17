@@ -69,14 +69,14 @@ set_politics = {
 }
 
 set_popularities = {
-    syndicalist = 5
-	vanguardist = 3
-	democratic_socialist = 8
-	social_liberal = 19
-	market_liberal = 30
-	social_conservative = 13
-	national_conservative = 12
-	integralist = 5
+    syndicalist = 6
+	vanguardist = 5
+	democratic_socialist = 9
+	social_liberal = 17
+	market_liberal = 23
+	social_conservative = 21
+	national_conservative = 7
+	integralist = 7
 	social_nationalist = 5
 }
 

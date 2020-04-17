@@ -509,6 +509,10 @@ GND = {
     color = rgb { 178 34 34 }
 	color_ui = rgb { 178 34 34 }
 }
+FWA = {
+    color = rgb { 70 130 180 }
+	color_ui = rgb { 70 130 180 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

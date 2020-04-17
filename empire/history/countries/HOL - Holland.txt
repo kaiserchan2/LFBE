@@ -29,22 +29,22 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = social_conservative
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-    syndicalist = 4
-	vanguardist = 6
-	democratic_socialist = 9
-	social_liberal = 28
+    syndicalist = 5
+	vanguardist = 5
+	democratic_socialist = 6
+	social_liberal = 23
 	market_liberal = 7
-	social_conservative = 22
-	national_conservative = 13
-	integralist = 5
-	social_nationalist = 6
+	social_conservative = 29
+	national_conservative = 11
+	integralist = 10
+	social_nationalist = 4
 }
 
 set_convoys = 200

@@ -5,8 +5,52 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_continuous_political.tga"
 	}
 	SpriteType = {
-		name = "GFX_focus_empty_coffers"
-		texturefile = "gfx/interface/goals/empty_coffers.tga"
+		name = "GFX_goal_continuous_naval_production"
+		texturefile = "gfx/interface/goals/goal_continuous_naval_production.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_suppression"
+		texturefile = "gfx/interface/goals/goal_continuous_suppression.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_non_factory_construct"
+		texturefile = "gfx/interface/goals/goal_continuous_non_factory_construct.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_reduce_training_time"
+		texturefile = "gfx/interface/goals/goal_continuous_reduce_training_time.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_boost_freedom"
+		texturefile = "gfx/interface/goals/goal_continuous_boost_freedom.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_def_against_influence"
+		texturefile = "gfx/interface/goals/goal_continuous_def_against_influence.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_increase_nu"
+		texturefile = "gfx/interface/goals/goal_continuous_increase_nu.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_armor_production"
+		texturefile = "gfx/interface/goals/goal_continuous_armor_production.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_repairments"
+		texturefile = "gfx/interface/goals/goal_continuous_repairments.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_research"
+		texturefile = "gfx/interface/goals/goal_continuous_research.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_restrict_freedom"
+		texturefile = "gfx/interface/goals/goal_continuous_restrict_freedom.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_continuous_air_production"
+		texturefile = "gfx/interface/goals/goal_continuous_air_production.tga"
 	}
 
 	#######################
@@ -390,10 +434,6 @@ spriteTypes = {
 	}
 
 	### Other ###
-	SpriteType = {
-		name = "GFX_goal_continuous_suppression"
-		texturefile = "gfx/interface/goals/goal_continuous_suppression.tga"
-	}
 	SpriteType = {
 		name = "GFX_focus_undercut_the_king"
 		texturefile = "gfx/interface/goals/focus_undercut_the_king.tga"
@@ -1582,7 +1622,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_BEL_Confederalism.tga"
 	}
 	SpriteType = {
-		name = "GFX_BEL_Catholic_Education"
+		name = "GFX_Catholic_Education"
 		texturefile = "gfx/interface/goals/focus_Catholic_Education.tga"
 	}
 	SpriteType = {
@@ -1606,7 +1646,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_BEL_Improve_American_Relations.tga"
 	}
 	SpriteType = {
-		name = "GFX_BEL_Catholic_Construction"
+		name = "GFX_Catholic_Construction"
 		texturefile = "gfx/interface/goals/goal_Catholic_construction.tga"
 	}
 	SpriteType = {
@@ -2105,8 +2145,8 @@ spriteTypes = {
 
 	### Dominican Republic ###
 	SpriteType = {
-		name = "GFX_goal_DOM_Call_Special_Election"
-		texturefile = "gfx/interface/goals/DOM_Call_Special_Election.tga"
+		name = "GFX_goal_elector"
+		texturefile = "gfx/interface/goals/elector.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_DOM_End_Judicial_Corruption"
@@ -5856,5 +5896,119 @@ spriteTypes = {
 		name = "GFX_goal_fortify_the_westwall"
 		texturefile = "gfx/interface/goals/goal_generic_construct_military.tga"
 
+	}
+	
+	###other###
+	SpriteType = {
+		name = "GFX_focus_empty_coffers"
+		texturefile = "gfx/interface/goals/empty_coffers.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_concessions"
+		texturefile = "gfx/interface/goals/focus_generic_concessions.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_self_management"
+		texturefile = "gfx/interface/goals/focus_generic_self_management.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_propaganda"
+		texturefile = "gfx/interface/goals/goal_generic_propaganda.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_treaty"
+		texturefile = "gfx/interface/goals/focus_generic_treaty.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_consumer_goods"
+		texturefile = "gfx/interface/goals/goal_generic_consumer_goods.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_defence"
+		texturefile = "gfx/interface/goals/goal_generic_defence.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_army_motorized"
+		texturefile = "gfx/interface/goals/goal_generic_army_motorized.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_army_doctrines"
+		texturefile = "gfx/interface/goals/goal_generic_army_doctrines.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_military_sphere"
+		texturefile = "gfx/interface/goals/goal_generic_military_sphere.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_coastal_fort"
+		texturefile = "gfx/interface/goals/focus_generic_coastal_fort.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_small_arms"
+		texturefile = "gfx/interface/goals/goal_generic_small_arms.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_fortify_city"
+		texturefile = "gfx/interface/goals/goal_generic_fortify_city.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_improve_relations"
+		texturefile = "gfx/interface/goals/goal_generic_improve_relations.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_military_academy"
+		texturefile = "gfx/interface/goals/focus_generic_military_academy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_demand_territory"
+		texturefile = "gfx/interface/goals/goal_generic_demand_territory.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_military_deal"
+		texturefile = "gfx/interface/goals/goal_generic_military_deal.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_military_mission"
+		texturefile = "gfx/interface/goals/focus_generic_military_mission.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_special_forces"
+		texturefile = "gfx/interface/goals/goal_generic_special_forces.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_construct_naval_dockyard"
+		texturefile = "gfx/interface/goals/goal_generic_construct_naval_dockyard.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_cruiser2"
+		texturefile = "gfx/interface/goals/focus_generic_cruiser2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_navy_battleship"
+		texturefile = "gfx/interface/goals/goal_generic_navy_battleship.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_navy_submarine"
+		texturefile = "gfx/interface/goals/goal_generic_navy_submarine.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_occypy_states_coastal"
+		texturefile = "gfx/interface/goals/goal_generic_occypy_states_coastal.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_navy_cruiser"
+		texturefile = "gfx/interface/goals/goal_generic_navy_cruiser.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_destroyer"
+		texturefile = "gfx/interface/goals/focus_generic_destroyer.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_air_naval_bomber"
+		texturefile = "gfx/interface/goals/goal_generic_air_naval_bomber.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_build_airforce"
+		texturefile = "gfx/interface/goals/goal_generic_build_airforce.tga"
 	}
 }

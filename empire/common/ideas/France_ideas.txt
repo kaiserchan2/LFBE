@@ -1,6 +1,6 @@
 ideas = {
     country = {
-	
+	### Cartel des Gauches ###
 	    FRA_reconciliation_with_unions = {
 		    picture = generic_scales
 			allowed = {
@@ -11,8 +11,7 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    production_factory_max_efficiency_factor = 0.05
-				production_speed_industrial_complex_factor = 0.05
+			    industrial_capacity_factory = 0.1
 			}	
 		}
 		
@@ -26,7 +25,7 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    consumer_goods_factor = -0.05
+			    production_speed_industrial_complex_factor = 0.125 
 			}	
 		}
 		
@@ -40,8 +39,7 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    stability_factor = 0.03
-				production_speed_arms_factory_factor = 0.05
+			    production_factory_efficiency_gain_factor = 0.175
 			}	
 		}
 		
@@ -55,7 +53,7 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    industrial_capacity_factory = 0.1
+			    production_factory_max_efficiency_factor = 0.15
 			}	
 		}
 		
@@ -69,9 +67,135 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    political_power_cost = -0.3
+			    
 			}	
 		}
 		
+		FRA_small_business_supported = {
+		    picture = generic_trade
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    production_speed_industrial_complex_factor = 0.125
+			}	
+		}
+		
+		FRA_monarchy_restrained = {
+		    picture = king_visit
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    political_power_cost = -0.25
+			}	
+		}
+	### Bloc National ###
+        FRA_education_ensured = {
+		    picture = 
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    research_time_factor = -0.05
+			}	
+		}	
+		
+		FRA_moral_propaganda = {
+		    picture = 
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    consumer_goods_factor = -0.10
+			}	
+		}
+		
+		FRA_unions_instituted = {
+		    picture = 
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    production_factory_efficiency_gain_factor = 0.125
+			}	
+		}
+		
+		FRA_welfare_moderate = {
+		    picture = 
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    industrial_capacity_factory = 0.075
+			}	
+		}
+		
+		FRA_executive_empowered = {
+		    picture = 
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    political_power_gain_factor = 0.4
+			}	
+		}
+	### Army ###
+	    FRA_tardieu_project = {
+		    picture = 
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    production_speed_coastal_bunker_factor = 0.15
+				production_speed_bunker_factor = 0.15
+			}	
+		}
+		FRA_fortress_france1 = {
+		    picture = 
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			
+			removal_cost = -1
+			
+            modifier = {
+			    army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+			}	
+		}
 	}
 }

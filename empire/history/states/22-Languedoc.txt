@@ -1,0 +1,33 @@
+
+state={
+	id=22
+	name="STATE_22" 
+	manpower = 1412783
+	
+	
+	state_category = large_town
+	
+	resources={
+		steel=70 # was: 136
+		aluminium=50 # was: 96
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			9898 7 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 8
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		6917 3946 6960 9898 11877 11711 9728  
+	}
+}

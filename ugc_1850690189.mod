@@ -1,5 +1,4 @@
 name="Führerreich: Legacy of The Great War"
-archive="D:/GAMES/steamapps/workshop/content/394360/1850690189/FR_public.zip"
 replace_path="events"
 replace_path="tests"
 replace_path="history/units"
@@ -35,6 +34,7 @@ tags={
 	"National Focuses"
 	"Gameplay"
 }
-picture="FR_channel_Icon.jpg"
-supported_version="1.7.*"
+picture=""
+supported_version="1.9.*.*"
+path="D:/GAMES/steamapps/workshop/content/394360/1850690189"
 remote_file_id="1850690189"

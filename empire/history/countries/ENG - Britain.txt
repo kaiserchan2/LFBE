@@ -50,17 +50,19 @@ set_technology = {
 set_convoys = 250
 
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = social_liberal
 	last_election = "1931.11.27"
 	election_frequency = 60
 	elections_allowed = yes 
 }
-set_popularities = {	vanguardist = 6
-	democratic_socialist = 7
-	social_liberal = 28
-	market_liberal = 37
-	national_conservative = 15
-	integralist = 7
+set_popularities = {
+    syndicalist = 11	vanguardist = 10
+	democratic_socialist = 10
+	social_liberal = 19
+	market_liberal = 12
+	social_conservative = 18
+	national_conservative = 10
+	integralist = 10
 }
 
 create_country_leader = {

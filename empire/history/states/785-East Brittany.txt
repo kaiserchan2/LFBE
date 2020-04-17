@@ -1,0 +1,29 @@
+state={
+	id=785
+	name="STATE_785"
+	manpower = 1532558
+	
+	state_category = city
+	
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			9495 5
+		}
+		victory_points = {
+			11465 5
+		}
+		buildings = {
+			infrastructure = 7
+			dockyard = 1
+			11465 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces={
+		11508 9495 527 11465 11616 9510 
+	}
+}
