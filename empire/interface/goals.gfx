@@ -1638,8 +1638,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_BEL_Improve_Catholic_Relations.tga"
 	}
 	SpriteType = {
-		name = "GFX_BEL_Improve_Spanish_Relations"
-		texturefile = "gfx/interface/goals/focus_BEL_Improve_Spanish_Relations.tga"
+		name = "GFX_Improve_Spanish_Relations"
+		texturefile = "gfx/interface/goals/focus_Improve_Spanish_Relations.tga"
 	}
 	SpriteType = {
 		name = "GFX_BEL_Improve_American_Relations"
@@ -3812,8 +3812,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/NATFRA_flags3.tga"
 	}
 	SpriteType = { # France First
-		name = "GFX_NATFRA_francefirst"
-		texturefile = "gfx/interface/goals/NATFRA_francefirst.tga"
+		name = "GFX_france_hegemony"
+		texturefile = "gfx/interface/goals/france_hegemony.tga"
 	}
 	SpriteType = { # Friend with Poland
 		name = "GFX_NATFRA_friendwithpoland"
@@ -6010,5 +6010,45 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_generic_build_airforce"
 		texturefile = "gfx/interface/goals/goal_generic_build_airforce.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_political_pressure"
+		texturefile = "gfx/interface/goals/goal_generic_political_pressure.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_dangerous_deal"
+		texturefile = "gfx/interface/goals/goal_generic_dangerous_deal.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_provoke_border_clashes"
+		texturefile = "gfx/interface/goals/focus_generic_provoke_border_clashes.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_anschluss"
+		texturefile = "gfx/interface/goals/goal_anschluss.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_territory_or_war"
+		texturefile = "gfx/interface/goals/goal_generic_territory_or_war.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_major_alliance"
+		texturefile = "gfx/interface/goals/goal_generic_major_alliance.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_intervention_spain_republic"
+		texturefile = "gfx/interface/goals/focus_intervention_spain_republic.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_intelligence_exchange"
+		texturefile = "gfx/interface/goals/goal_generic_intelligence_exchange.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_navy_doctrines_tactics"
+		texturefile = "gfx/interface/goals/goal_generic_navy_doctrines_tactics.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_reach_out_to_france"
+		texturefile = "gfx/interface/goals/focus_reach_out_to_france.dds"
 	}
 }

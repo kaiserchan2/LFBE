@@ -7,7 +7,7 @@ state={
 
 	history={
 		owner = ITA
-		victory_points = { 9584 1 }
+		victory_points = { 607 2 }
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
@@ -17,6 +17,6 @@ state={
 	}
 
 	provinces={
-		9600 3641 13221 607 9584
+		9600 3641 607 9584 6635
 	}
 }

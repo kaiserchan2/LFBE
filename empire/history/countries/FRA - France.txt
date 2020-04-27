@@ -56,10 +56,19 @@ add_to_faction = DEN
 add_to_faction = SWI
 add_to_faction = SWA
 add_to_faction = ITA
-add_to_faction = SLV
-add_to_faction = RHI
-add_to_faction = INS
-add_to_faction = MOR
+
+set_autonomy = {
+	target = MOR
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = FWA
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = RHI
+	autonomous_state = autonomy_puppet
+}
 
 set_politics = {
 	ruling_party = market_liberal
@@ -70,14 +79,14 @@ set_politics = {
 
 set_popularities = {
     syndicalist = 6
-	vanguardist = 5
-	democratic_socialist = 9
-	social_liberal = 17
-	market_liberal = 23
-	social_conservative = 21
+	vanguardist = 3
+	democratic_socialist = 7
+	social_liberal = 15
+	market_liberal = 33
+	social_conservative = 19
 	national_conservative = 7
 	integralist = 7
-	social_nationalist = 5
+	social_nationalist = 3
 }
 
 create_country_leader = {

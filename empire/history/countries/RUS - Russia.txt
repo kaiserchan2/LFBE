@@ -43,6 +43,15 @@ set_technology = {
 
 set_convoys = 50
 
+set_autonomy = {
+	target = POL
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = FIN
+	autonomous_state = autonomy_puppet
+}
+
 set_politics = {
 	ruling_party = market_liberal
 	last_election = "1934.7.1"

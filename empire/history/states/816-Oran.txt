@@ -1,0 +1,26 @@
+state={
+	id=816
+	name="STATE_816"
+	manpower = 688757
+	
+	state_category = large_town
+
+	history={
+		owner = FRA
+		victory_points = {
+			7132 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			7132 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		4116 7132 11923 10045 4150
+	}
+}

@@ -24,7 +24,7 @@ set_stability = 0.55
 set_war_support = 0.25
 
 set_politics = {
-	ruling_party = national_conservative
+	ruling_party = market_liberal
 	last_election = "1933.5.19"
 	election_frequency = 60
 	elections_allowed = yes
@@ -34,9 +34,9 @@ set_popularities = {
     vanguardist = 12
 	democratic_socialist = 23
 	social_liberal = 12
-	market_liberal = 8
+	market_liberal = 25
 	social_conservative = 11
-	national_conservative = 25
+	national_conservative = 8
 	integralist = 9
 }
 
@@ -81,7 +81,7 @@ create_country_leader = {
 	desc = "POLITICS_KAREL_KRAMAR_DESC"
 	picture = "Portrait_CZE_Karel_Kramar.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = national_conservative_subtype
 	traits = {}
 }
 
@@ -90,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_RUDOLF_BERAN_DESC"
 	picture = "Portrait_CZE_Rudolf_Beran.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = market_liberal_subtype
 	traits = {}
 }
 

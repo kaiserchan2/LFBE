@@ -1,4 +1,4 @@
-name="La Empire Glorieux: Dawn of the Belle Époque"
+name="L'Empire Glorieux: Dawn of the Belle Époque"
 path="mod/empire/"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"

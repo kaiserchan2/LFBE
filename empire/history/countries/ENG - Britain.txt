@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_CLEMENT_ATTLEE_DESC"
 	picture = "Portrait_Britain_Clement_Attlee.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
@@ -102,11 +102,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James Maxton"
-	desc = "POLITICS_JAMES_MAXTON_DESC"
-	picture = "Portrait_Britain_James_Maxton.dds"
+	name = "James Ramsay MacDonald"
+	desc = "POLITICS_RAMSAY_MACDONALD_DESC"
+	picture = "Portrait_Britain_Ramsay_MacDonald.dds"
 	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
+	ideology = social_liberal_subtype
 	traits = {}
 }
 

@@ -12,12 +12,13 @@ focus_tree = {
      
     default = no
 	
-	continuous_focus_position = { x = 3000 y = 1000 }
+	continuous_focus_position = { x = 3700 y = 1000 }
 	
 	shared_focus = FRA_reconstitute_CSG
 	shared_focus = FRA_tardieu_scheme
 	shared_focus = FRA_statut_naval_1924
 	shared_focus = FRA_decree_separation
+	shared_focus = FRA_maintain_hegemony
 	
 	### Cartel des Cauches ###
 	

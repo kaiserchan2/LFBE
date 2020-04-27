@@ -1240,3 +1240,635 @@
 			air_experience = 15
 		}
     }
+	
+	### Foreign Policy ###
+	shared_focus = {
+    id = FRA_maintain_hegemony
+		icon = GFX_focus_reach_out_to_france
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		x = 28
+		y = 9
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_side_of_channel
+		icon = GFX_goal_generic_political_pressure
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_maintain_hegemony
+		}
+		
+		relative_position_id = FRA_maintain_hegemony
+		x = -8
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_irish_mission
+		icon = GFX_IRE_honorable_army
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_side_of_channel
+		}
+		
+		relative_position_id = FRA_side_of_channel
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_support_irish_claims
+		icon = GFX_IRE_Ulster
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_irish_mission
+		}
+		
+		relative_position_id = FRA_irish_mission
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_renegotiate_reparations
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_side_of_channel
+		}
+		
+		relative_position_id = FRA_side_of_channel
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_border_treaty
+		icon = GFX_focus_generic_treaty
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_renegotiate_reparations
+		}
+		
+		relative_position_id = FRA_renegotiate_reparations
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_german_question
+		icon = GFX_goal_germany
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_maintain_hegemony
+		}
+		
+		relative_position_id = FRA_maintain_hegemony
+		x = -4
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_aid_berlin
+		icon = GFX_goal_SWI_international_aid
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_german_question
+		}
+		
+		relative_position_id = FRA_german_question
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_integrate_rhineland
+		icon = GFX_goal_anschluss
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_aid_berlin
+		}
+		
+		relative_position_id = FRA_aid_berlin
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_status_south_germany
+		icon = GFX_goal_generic_territory_or_war
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_integrate_rhineland
+		}
+		
+		relative_position_id = FRA_integrate_rhineland
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_expand_corps
+		icon = GFX_goal_army_guy_2
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_german_question
+		}
+		
+		relative_position_id = FRA_german_question
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_finance_northgerman_separtists
+		icon = GFX_goal_capitalist_system
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_expand_corps
+		}
+		
+		relative_position_id = FRA_expand_corps
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_enforce_confederation
+		icon = GFX_goal_renewed_militarism
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_finance_northgerman_separtists
+		}
+		
+		relative_position_id = FRA_finance_northgerman_separtists
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_dearest_enemy
+		icon = GFX_goal_russia
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_maintain_hegemony
+		}
+		
+		relative_position_id = FRA_maintain_hegemony
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_arm_poles
+		icon = GFX_goal_Arms_Export
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_dearest_enemy
+		}
+		
+		relative_position_id = FRA_dearest_enemy
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_bucharest_talks
+		icon = GFX_goal_royalist_romania
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_arm_poles
+		}
+		
+		relative_position_id = FRA_arm_poles
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_blockade_straits
+		icon = GFX_goal_generic_sea_focused_navy
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_bucharest_talks
+		}
+		
+		relative_position_id = FRA_bucharest_talks
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_end_trade_war
+		icon = GFX_goal_generic_positive_trade_relations_gold
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_dearest_enemy
+		}
+		
+		relative_position_id = FRA_dearest_enemy
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_pressure_turks
+		icon = GFX_goal_OTT_Abolish_Mecelle
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_end_trade_war
+		}
+		
+		relative_position_id = FRA_end_trade_war
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_restore_old_entente
+		icon = GFX_focus_russian_cooperation
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_pressure_turks
+		}
+		
+		relative_position_id = FRA_pressure_turks
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_ties_with_rome
+		icon = GFX_goal_SRD_kingdom_of_italy
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_maintain_hegemony
+		}
+		
+		relative_position_id = FRA_maintain_hegemony
+		x = 4
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_discuss_tunis
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_ties_with_rome
+		}
+		
+		relative_position_id = FRA_ties_with_rome
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_lower_tariffs
+		icon = GFX_goal_RUS_Force_the_Straits
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_discuss_tunis
+		}
+		
+		relative_position_id = FRA_discuss_tunis
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_ciano_laval
+		icon = GFX_SOM_goal_put_down_the_lion
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_lower_tariffs
+		}
+		
+		relative_position_id = FRA_lower_tariffs
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_mediterranean_war_games
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_ciano_laval
+		}
+		
+		relative_position_id = FRA_ciano_laval
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_south_direction
+		icon = GFX_goal_cntfai
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_maintain_hegemony
+		}
+		
+		relative_position_id = FRA_maintain_hegemony
+		x = 8
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_guarantee_catalonia
+		icon = GFX_goal_generic_major_alliance
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_south_direction
+		}
+		
+		relative_position_id = FRA_south_direction
+		x = -2
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_supply_royalists
+		icon = GFX_Improve_Spanish_Relations
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_south_direction
+		}
+		
+		relative_position_id = FRA_south_direction
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_committee_iberia
+		icon = GFX_focus_intervention_spain_republic
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_south_direction
+		}
+		
+		relative_position_id = FRA_south_direction
+		x = 2
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_destroy_red_threat
+		icon = GFX_HOL_crackdown_syndie
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_guarantee_catalonia
+		}
+		prerequisite = {
+			focus = FRA_supply_royalists
+		}
+		prerequisite = {
+			focus = FRA_committee_iberia
+		}
+		
+		relative_position_id = FRA_committee_iberia
+		x = -2
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
