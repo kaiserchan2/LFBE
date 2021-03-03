@@ -7,11 +7,11 @@ state={
 	state_category = city
 
 	history={
-		owner = BAV
+		owner = SDB
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = BAV
+		add_core_of = SDB
 		victory_points = {
 			9515 3
 		}

@@ -18,15 +18,9 @@ state={
 
 		}
 		add_core_of = ITA
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 7
-				industrial_complex = 4
-			}
-		}
 	}
 
 	provinces={
-		773 969 3776 3780 6661 11568 11587 11734 
+		773 969 3776 3780 6661 11568 11587 11734 607 9584
 	}
 }

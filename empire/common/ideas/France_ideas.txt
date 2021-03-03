@@ -1,8 +1,8 @@
 ideas = {
     country = {
-	### Cartel des Gauches ###
-	    FRA_reconciliation_with_unions = {
-		    picture = generic_scales
+	### PS ###
+	     FRA_unions_autonomy = {
+		    picture = GFX_idea_country_focus_efficency
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -11,12 +11,12 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    industrial_capacity_factory = 0.1
+			    industrial_capacity_factory = 0.05
 			}	
 		}
 		
 		FRA_bank_nationalised = {
-		    picture = state_economy
+		    picture = Economic_Meltdown
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -25,12 +25,12 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    production_speed_industrial_complex_factor = 0.125 
+			    production_speed_industrial_complex_factor = 0.075 
 			}	
 		}
 		
-		FRA_labour_inspection_created = {
-		    picture = economic_control_icon
+		FRA_labor_laws = {
+		    picture = idea_generic_constitutional_guarantee
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -39,26 +39,12 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    production_factory_efficiency_gain_factor = 0.175
+			    production_factory_max_efficiency_factor = 0.075
 			}	
 		}
-		
-		FRA_rights_expanded = {
-		    picture = monroe_doctrine
-			allowed = {
-				original_tag = FRA
-				always = no
-			}
-			
-			removal_cost = -1
-			
-            modifier = {
-			    production_factory_max_efficiency_factor = 0.15
-			}	
-		}
-		
+	### PRRS ###
 		FRA_taxation_increased = {
-		    picture = generic_coins
+		    picture = debts
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -72,7 +58,7 @@ ideas = {
 		}
 		
 		FRA_small_business_supported = {
-		    picture = generic_trade
+		    picture = idea_generic_trade
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -81,12 +67,12 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    production_speed_industrial_complex_factor = 0.125
+			    production_speed_industrial_complex_factor = 0.075
 			}	
 		}
 		
 		FRA_monarchy_restrained = {
-		    picture = king_visit
+		    picture = idea_parliamentary_monarchy
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -95,12 +81,12 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    political_power_cost = -0.25
+			    political_power_cost = -0.2
 			}	
 		}
-	### Bloc National ###
+	### ALP/PDP ###
         FRA_education_ensured = {
-		    picture = 
+		    picture = christian_state
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -109,7 +95,7 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    research_time_factor = -0.05
+			    research_time_factor = -0.025
 			}	
 		}	
 		
@@ -123,10 +109,11 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    consumer_goods_factor = -0.10
+			    consumer_goods_factor = -0.05
 			}	
 		}
 		
+	### PDP ###
 		FRA_unions_instituted = {
 		    picture = 
 			allowed = {
@@ -137,12 +124,12 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    production_factory_efficiency_gain_factor = 0.125
+			    production_factory_efficiency_gain_factor = 0.075
 			}	
 		}
 		
-		FRA_welfare_moderate = {
-		    picture = 
+		FRA_catholic_ethics = {
+		    picture = generic_goods
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -151,12 +138,12 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    industrial_capacity_factory = 0.075
+			    industrial_capacity_factory = 0.05
 			}	
 		}
 		
-		FRA_executive_empowered = {
-		    picture = 
+		FRA_councils_empowered = {
+		    picture = generic_government_stability
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -165,12 +152,12 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    political_power_gain_factor = 0.4
+			    political_power_gain_factor = 0.2
 			}	
 		}
 	### Army ###
 	    FRA_tardieu_project = {
-		    picture = 
+		    picture = fortification_focus
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -184,7 +171,7 @@ ideas = {
 			}	
 		}
 		FRA_fortress_france1 = {
-		    picture = 
+		    picture = fra_unity
 			allowed = {
 				original_tag = FRA
 				always = no
@@ -193,8 +180,8 @@ ideas = {
 			removal_cost = -1
 			
             modifier = {
-			    army_core_attack_factor = 0.2
-				army_core_defence_factor = 0.2
+			    army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
 			}	
 		}
 	}

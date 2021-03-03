@@ -34,21 +34,21 @@ set_war_support = 0.25
 add_political_power = 35
 
 set_politics = {
-	ruling_party = national_conservative
-	last_election = "1919.9.16"
+	ruling_party = social_conservative
+	last_election = "1923.3.18"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    national_conservative = 100
+    social_conservative = 100
 }
 
 create_country_leader = {
-	name = "Martial Henri Merlin"
-	desc = "POLITICS_MARTIAL_MERLIN_DESC"
-	picture = "Portrait_FWA_Martial_Merlin.dds"
+	name = "Jules Carde"
+	desc = "POLITICS_JULES_CARDE_DESC"
+	picture = "Portrait_FWA_Jules_Carde.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }

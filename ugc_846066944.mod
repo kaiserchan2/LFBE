@@ -1,14 +1,14 @@
-name="Player-Led Peace Conferences"
+version="1.9"
 tags={
 	"Gameplay"
 }
 dependencies={
-	"Kaiserreich"
-	"Millenium Dawn: Modern Day Mod"
-	"Old World Blues"
+	"Kaissereich"
+	"The Coming Storm"
+	"Führerreich: Legacy of The Great War"
 }
-version="1.8"
+name="Player-Led Peace Conferences"
 picture="thumb.jpg"
-supported_version="1.8.*"
+supported_version="1.10.*"
 path="D:/GAMES/steamapps/workshop/content/394360/846066944"
 remote_file_id="846066944"

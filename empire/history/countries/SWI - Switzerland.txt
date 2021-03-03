@@ -19,19 +19,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = market_liberal
-	last_election = "1931.10.25"
-	election_frequency = 60
+	ruling_party = radical_progressive
+	last_election = "1930.10.25"
+	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-    vanguardist = 9
-    social_liberal = 23
-	market_liberal = 28
-	social_conservative = 20
-	national_conservative = 11
-	integralist = 9
+    radical_progressive = 100
 }
 
 create_country_leader = {
@@ -39,34 +34,7 @@ create_country_leader = {
 	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Federal_council.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Federal Council"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Federal Council"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Federal Council"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
-	expire = "1965.1.1"
-	ideology = integralist_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }
 

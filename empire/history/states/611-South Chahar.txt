@@ -1,0 +1,22 @@
+
+state={
+	id=611
+	name="STATE_611" 
+	manpower = 1470000
+	
+	state_category = pastoral
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+	}
+
+	provinces={
+		828 952 1137 1489 1590 6904 9776 10397 
+	}
+}

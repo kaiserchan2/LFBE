@@ -11,21 +11,21 @@ set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = national_conservative
+	ruling_party = market_liberal
 	last_election = "1932.6.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	national_conservative = 100
+	market_liberal = 100
 }
 
 create_country_leader = {
-	name = "Arnulfo Arias Madrid"
-	desc = "POLITICS_ARNULFO_ARIAS_DESC"
-	picture = "Portrait_Panama_Arnulfo_Arias.dds"
+	name = "Florencio Harmodio Arosemena"
+	desc = "POLITICS_FLORENCIO_AROSEMENA_DESC"
+	picture = "Portrait_Panama_Florencio_Arosemena.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = market_liberal_subtype
 	traits = {}
 }

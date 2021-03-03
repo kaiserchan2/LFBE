@@ -11,14 +11,14 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = social_liberal
-	last_election = "1935.1.15"
+	ruling_party = radical_progressive
+	last_election = "1931.1.13"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	social_liberal = 100
+	radical_progressive = 100
 }
 
 create_country_leader = {
@@ -26,7 +26,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTURO_ARAUJO_DESC"
 	picture = "Portrait_Salvador_Arturo_Araujo.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }
 

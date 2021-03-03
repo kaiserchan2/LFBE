@@ -29,47 +29,24 @@ set_autonomy = {
 }
 
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = radical_progressive
 	last_election = "1932.11.16"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	vanguardist = 3
-	democratic_socialist = 9
-	social_liberal = 25
-	market_liberal = 42
-	national_conservative = 19
-	social_nationalist = 2
+	radical_progressive = 100
 }
 
 set_convoys = 40
-
-create_country_leader = {
-	name = "Aksel Larsen"
-	desc = "POLITICS_AKSEL_LARSEN_DESC"
-	picture = "Portrait_Denmark_Aksel_Larcen.dds"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Thorvald Stauning"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
-	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
 
 create_country_leader = {
 	name = "Christian X"
 	desc = "POLITICS_CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }
 
@@ -87,16 +64,25 @@ create_country_leader = {
 	desc = "POLITICS_CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Frits Clausen"
-	desc = "POLITICS_FRITS_CLAUSEN_DESC"
-	picture = "Portrait_Denmark_Fritz_Clausen.dds"
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.dds"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = authoritarian_despotist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_X_DESC"
+	picture = "Portrait_Denmark_Christian_X.dds"
+	expire = "1965.1.1"
+	ideology = integralist_subtype
 	traits = {}
 }
 

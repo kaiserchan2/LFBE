@@ -1,13 +1,13 @@
 state={
 	id=825
 	name="STATE_825"
-	manpower = 1423117
+	manpower = 202390
 	
-	state_category = city
+	state_category = rural
 
 	history={
 		owner = ITA
-		victory_points = { 607 2 }
+		victory_points = { 9600 1 }
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
@@ -17,6 +17,6 @@ state={
 	}
 
 	provinces={
-		9600 3641 607 9584 6635
+		9600 3641 658 3662
 	}
 }

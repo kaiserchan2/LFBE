@@ -19,21 +19,21 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic_socialist
-	last_election = "1931.10.11"
+	ruling_party = authoritarian_despotist
+	last_election = "1919.4.4"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic_socialist = 100
+	authoritarian_despotist = 100
 }
 
 create_country_leader = {
-	name = "Víctor Raúl Haya de la Torre"
-	desc = "POLITICS_VICTOR_RAUL_DESC"
-	picture = "Portrait_Peru_Victor_Raul.dds"
+	name = "Augusto B. Leguía"
+	desc = "POLITICS_AUGUSTO_LEGUIA_DESC"
+	picture = "Portrait_Peru_Augusto_Leguia.dds"
 	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }

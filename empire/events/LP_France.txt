@@ -1,0 +1,52 @@
+add_namespace = france
+
+### Introduction ###
+country_event = { 
+	id = france.1
+	title = france.1.t
+	desc = france.1.d
+	picture = GFX_report_event_french_tanks
+
+	is_triggered_only = yes
+
+	option = {
+		name = france.1.a
+	}
+}
+
+### Fourth Revolution ###
+country_event = { 
+	id = france.2
+	title = france.2.t
+	desc = france.2.d
+	picture = GFX_report_event_generic_communist_congress
+
+    is_triggered_only = yes
+	
+	option = {
+		name = france.2.a
+		load_focus_tree = FRA_socialist_focus
+		hidden_effect = {
+			set_country_flag = fourth_revolution
+		}
+	}
+}
+
+### Army ###
+country_event = {
+    id = france.10
+	title = france.10.t
+	desc = france.10.d
+	picture = GFX_report_event_soldiers_marching
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = france.10.a
+		add_ideas = conscription1
+	}
+	option = {
+	    name = france.10.b
+		add_ideas = conscription2
+	}
+}

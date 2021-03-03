@@ -387,15 +387,20 @@ spriteTypes = {
 		name = "GFX_ideology_socialist_group"
 		texturefile = "gfx/interface/ideologies/socialist_group.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_anarcho_collectivist_group"
+		texturefile = "gfx/interface/ideologies/anarcho_collectivist_group.dds"
+	}
 
 	spriteType = {
 		name = "GFX_ideology_vanguardist_group"
 		texturefile = "gfx/interface/ideologies/vanguardist_group.dds"
 	}
-
+	
 	spriteType = {
-		name = "GFX_ideology_syndicalist_group"
-		texturefile = "gfx/interface/ideologies/syndicalist_group.dds"
+		name = "GFX_ideology_social_nationalist_group"
+		texturefile = "gfx/interface/ideologies/social_nationalist_group.dds"
 	}
 
 	spriteType = {
@@ -404,38 +409,28 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_social_democrat_group"
-		texturefile = "gfx/interface/ideologies/social_democrat_group.dds"
+		name = "GFX_ideology_radical_progressive_group"
+		texturefile = "gfx/interface/ideologies/radical_progressive_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_liberal_group"
-		texturefile = "gfx/interface/ideologies/liberal_group.dds"
+		name = "GFX_ideology_market_liberal_group"
+		texturefile = "gfx/interface/ideologies/market_liberal_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_christian_democratic_group"
-		texturefile = "gfx/interface/ideologies/christian_democratic_group.dds"
+		name = "GFX_ideology_social_conservative_group"
+		texturefile = "gfx/interface/ideologies/social_conservative_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_conservative_group"
-		texturefile = "gfx/interface/ideologies/conservative_group.dds"
+		name = "GFX_ideology_authoritarian_despotist_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_despotist_group.dds"
 	}
 
 	spriteType = {
 		name = "GFX_ideology_integralist_group"
 		texturefile = "gfx/interface/ideologies/integralist_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_paternal_autocrat_group"
-		texturefile = "gfx/interface/ideologies/paternal_autocrat_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_national_socialist_group"
-		texturefile = "gfx/interface/ideologies/national_socialist_group.dds"
 	}
 
 	spriteType = {

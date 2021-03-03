@@ -6,7 +6,7 @@ state={
 	state_category = small_island
 	
 	history={
-		owner = IBR
+		owner = POR
 		victory_points = {
 			1751 3 
 		}
@@ -17,7 +17,7 @@ state={
 			}
 			air_base = 2
 		}
-		add_core_of = IBR
+		add_core_of = POR
 	}
 	
 	provinces={

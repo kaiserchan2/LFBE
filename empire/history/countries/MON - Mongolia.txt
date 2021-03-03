@@ -7,21 +7,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_liberal
-	last_election = "1933.6.10"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = authoritarian_despotist
+	last_election = "1924.5.24"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {
-	social_liberal = 100
+	authoritarian_despotist = 100
 }
 
 create_country_leader = {
-	name = "Damdin Sükhbaatar"
-	desc = "POLITICS_DAMDIN_SUKHBAATAR_DESC"
-	picture = "Portrait_Mongolia_Damdin_Sukhbaatar.dds"
+	name = "Yondonwangchug"
+	desc = "POLITICS_PRINCE_YUN_DESC"
+	picture = "Portrait_Mongolia_Prince_Yun.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }

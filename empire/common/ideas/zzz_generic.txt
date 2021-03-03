@@ -164,10 +164,10 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = social_liberal
+				has_government = radical_progressive
 				has_government = social_conservative
 				has_government = market_liberal
-				has_government = national_conservative
+				has_government = authoritarian_despotist
 			}
 			
 			removal_cost = -1

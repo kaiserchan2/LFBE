@@ -9,19 +9,19 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic_socialist
-	last_election = "1936.1.1"
+	ruling_party = radical_progressive
+	last_election = "1930.11.9"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic_socialist = 100
+	radical_progressive = 100
 }
 
 create_country_leader = {	
-	name = "Aung San"
-	picture = "Portrait_Burma_Aung_San.dds"
+	name = "Myat Phaya Galay"
+	picture = "Portrait_Burma_Myat_Phaya_Galay.dds"
 	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }

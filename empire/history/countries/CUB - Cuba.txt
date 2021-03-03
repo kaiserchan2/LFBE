@@ -12,21 +12,21 @@ set_war_support = 0.1
 set_convoys = 20
 
 set_politics = {
-	ruling_party = market_liberal
-	last_election = "1932.1.10"
+	ruling_party = authoritarian_despotist
+	last_election = "1924.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	market_liberal = 100
+	authoritarian_despotist = 100
 }
 
 create_country_leader = {
-	name = "Miguel Mariano Gómez"
-	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
-	picture = "Portrait_Cuba_Miguel_Gomez.dds"
+	name = "Gerardo Machado"
+	desc = "POLITICS_GERARDO_MACHADO_DESC"
+	picture = "Portrait_Cuba_Gerardo_Machado.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }

@@ -10,14 +10,14 @@ set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = radical_progressive
 	last_election = "1932.10.28"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	social_liberal = 100
+	radical_progressive = 100
 }
 
 create_country_leader = {
@@ -25,6 +25,6 @@ create_country_leader = {
 	desc = "POLITICS_ANGEL_HUETE_DESC"
 	picture = "Portrait_Honduras_Angel_Huete.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }

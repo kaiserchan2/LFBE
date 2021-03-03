@@ -23,22 +23,22 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservative
-	last_election = "1935.11.27"
+	ruling_party = market_liberal
+	last_election = "1930.12.2"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	social_conservative = 100
+	market_liberal = 100
 }
 
 create_country_leader = {
-	name = "George Forbes"
-	desc = "POLITICS_GEORGE_FORBES_DESC"
-	picture = "Portrait_New_Zealand_george_Forbes.dds"
+	name = "Joseph Ward"
+	desc = "POLITICS_JOSEPH_WARD_DESC"
+	picture = "Portrait_New_Zealand_Joseph_Ward.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = market_liberal_subtype
 	traits = {}
 }
 

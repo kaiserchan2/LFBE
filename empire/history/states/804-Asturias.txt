@@ -6,7 +6,7 @@ state= {
 	state_category = large_city
 
 	history= {
-		owner = IBR
+		owner = SPA
 		victory_points = {
 			11707 5 
 		}
@@ -15,7 +15,7 @@ state= {
 			dockyard = 1
 			industrial_complex = 2
 		}
-		add_core_of = IBR
+		add_core_of = SPA
 	}
 
 	provinces = {

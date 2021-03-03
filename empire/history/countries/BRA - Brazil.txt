@@ -21,22 +21,22 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = integralist
+	ruling_party = market_liberal
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	integralist = 100
+	market_liberal = 100
 }
 
 create_country_leader = {
-	name = "Luís I"
-	desc = "POLITICS_LUIS_I_DESC"
-	picture = "Portrait_Brazil_Luis_I.dds"
+	name = "Júlio Prestes"
+	desc = "POLITICS_JULIO_PRESTES_DESC"
+	picture = "Portrait_Brazil_Julio_Prestes.dds"
 	expire = "1965.1.1"
-	ideology = integralist_subtype
+	ideology = market_liberal_subtype
 	traits = {}
 }
 

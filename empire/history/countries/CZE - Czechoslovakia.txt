@@ -25,64 +25,13 @@ set_war_support = 0.25
 
 set_politics = {
 	ruling_party = market_liberal
-	last_election = "1933.5.19"
+	last_election = "1929.10.27"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-    vanguardist = 12
-	democratic_socialist = 23
-	social_liberal = 12
-	market_liberal = 25
-	social_conservative = 11
-	national_conservative = 8
-	integralist = 9
-}
-
-create_country_leader = {
-	name = "Klement Gottwald"
-	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
-	picture = "Portrait_CZE_Klement_Gottwald.dds"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Antonín Hampl"
-	desc = "POLITICS_ANTONIN_HAMPL_DESC"
-	picture = "Portrait_CZE_Antonin_Hampl.dds"
-	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Václav Jaroslav Klofáč"
-	desc = "POLITICS_VACLAV_KLOFAC_DESC"
-	picture = "Portrait_CZE_Vaclav_Klofac.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Jan Šrámek"
-	desc = "POLITICS_JAN_SRAMEK_DESC"
-	picture = "Portrait_CZE_Jan_Sramek.dds"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Karel Kramář"
-	desc = "POLITICS_KAREL_KRAMAR_DESC"
-	picture = "Portrait_CZE_Karel_Kramar.dds"
-	expire = "1965.1.1"
-	ideology = national_conservative_subtype
-	traits = {}
+	market_liberal = 100
 }
 
 create_country_leader = {
@@ -91,15 +40,6 @@ create_country_leader = {
 	picture = "Portrait_CZE_Rudolf_Beran.dds"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Radola Gajda"
-	desc = "POLITICS_RADOLA_GAJDA_DESC"
-	picture = "Portrait_CZE_Radola_Gajda.dds"
-	expire = "1965.1.1"
-	ideology = integralist_subtype
 	traits = {}
 }
 

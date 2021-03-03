@@ -10,20 +10,20 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = social_nationalist
-	last_election = "1930.10.14"
+	ruling_party = authoritarian_despotist
+	last_election = "1922.5.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 100
+	authoritarian_despotist = 100
 }
 
 create_country_leader = {
-	name = "Jacques Roumain"
-	desc = "POLITICS_JACQUES_ROUMAIN_DESC"
-	picture = "Portrait_Haiti_Jacques_Roumain.dds"
+	name = "Louis Borno"
+	desc = "POLITICS_LOUIS_BORNO_DESC"
+	picture = "Portrait_Haiti_Louis_Borno.dds"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }

@@ -10,21 +10,21 @@ set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = vanguardist
+	ruling_party = radical_progressive
 	last_election = "1932.2.14"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	vanguardist = 100
+	radical_progressive = 100
 }
 
 create_country_leader = {
-	name = "Manuel Mora Valverde"
-	desc = "POLITICS_MANUEL_MORA_VALVERDE_DESC"
-	picture = "Portrait_COS_Manuel_Mora_Valverde.dds"
+	name = "Cleto González Víquez"
+	desc = "POLITICS_CLETO_GONZALEZ_DESC"
+	picture = "Portrait_COS_Cleto_Gonzalez.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }

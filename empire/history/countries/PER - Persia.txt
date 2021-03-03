@@ -13,22 +13,22 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = integralist
-	last_election = "1909.7.16"
+	ruling_party = authoritarian_despotist
+	last_election = "1932.8.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	integralist = 100
+	authoritarian_despotist = 100
 }
 
 create_country_leader = {
-	name = "Ahmad Shah Qajar"
-	desc = "POLITICS_AHMAD_SHAH_QAJAR_DESC"
-	picture = "Portrait_Iran_Ahmad_Shah_Qajar.dds"
+	name = "Reza Shah Pahlavi"
+	desc = "POLITICS_REZA_SHAH_DESC"
+	picture = "Portrait_Persia_Reza_Shah.dds"
 	expire = "1965.1.1"
-	ideology = integralist_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }
 

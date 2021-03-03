@@ -12,14 +12,14 @@ set_war_support = 0.35
 set_convoys = 120
 
 set_politics = {
-	ruling_party = social_conservative
-	last_election = "1934.12.20"
+	ruling_party = radical_progressive
+	last_election = "1930.12.12"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	social_conservative = 100
+	radical_progressive = 100
 }
 
 create_country_leader = {
@@ -27,6 +27,6 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDER_BUSTAMANTE_DESC"
 	picture = "Portrait_WIF_Alexander_Bustamante.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }

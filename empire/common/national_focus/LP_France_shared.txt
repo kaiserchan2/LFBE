@@ -1,0 +1,2272 @@
+    ### Army ###
+	shared_focus = {
+    id = FRA_reconstitute_CSG
+		icon = GFX_goal_generic_army_doctrines
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		x = 6
+		y = 0
+
+		completion_reward = {
+			army_experience = 30
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_conscriprion_question
+		icon = GFX_goal_army_guy
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_reconstitute_CSG
+		}
+		
+		relative_position_id = FRA_reconstitute_CSG
+		x = -1
+		y = 1
+
+		completion_reward = {
+			country_event = { id = france.10 }
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_improve_communications
+		icon = GFX_goal_radio
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_reconstitute_CSG
+		}
+		
+		relative_position_id = FRA_reconstitute_CSG
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+		        bonus = 1.0
+		        uses = 1
+				category = electronics
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_establish_discipline
+		icon = GFX_goal_generic_demand_territory
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_improve_communications
+			focus = FRA_conscriprion_question
+		}
+		
+		relative_position_id = FRA_conscriprion_question
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_defense_law
+		icon = GFX_goal_national_mobilization
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_improve_communications
+			focus = FRA_conscriprion_question
+		}
+		
+		relative_position_id = FRA_improve_communications
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_war_college
+		icon = GFX_focus_generic_military_academy
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_defense_law
+		}
+		prerequisite = {
+			focus = FRA_establish_discipline
+		}
+		
+		relative_position_id = FRA_defense_law
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_methodical_battle
+		icon = GFX_goal_planning_bonus
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_reconstitute_CSG
+		}
+		
+		relative_position_id = FRA_reconstitute_CSG
+		x = -5
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 1.0
+			uses = 2
+			category = cat_superior_firepower
+			}
+		}
+    }
+	
+	shared_focus = {
+		id = FRA_equip_infantry
+		icon = GFX_goal_generic_small_arms
+		cost = 8
+		prerequisite = {
+			focus = FRA_methodical_battle
+		}
+		available = {}
+		ai_will_do = {
+			factor = 100
+		}
+		
+		relative_position_id = FRA_methodical_battle
+		x = -1
+		y = 1
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = infantry_bonus
+			bonus = 1.0
+			uses = 2
+			category = infantry_weapons
+		}
+	}
+    }
+	
+	shared_focus = {
+		id = FRA_war_cannons
+		icon = GFX_goal_national_artillery
+		cost = 8
+		prerequisite = {
+			focus = FRA_methodical_battle
+		}
+		available = {}
+		ai_will_do = {
+			factor = 100
+		}
+		
+		relative_position_id = FRA_methodical_battle
+		x = 1
+		y = 1
+
+	completion_reward = {
+	    add_tech_bonus = {
+			name = infantry_artillery_bonus
+			bonus = 1.0
+			uses = 1
+			category = artillery
+		}
+	}
+    }
+	
+	shared_focus = {
+		id = FRA_anti_tank
+		icon = GFX_goal_anti_tank
+		cost = 8
+		prerequisite = {
+			focus = FRA_equip_infantry
+		}
+		available = {}
+		ai_will_do = {
+			factor = 100
+		}
+		
+		relative_position_id = FRA_equip_infantry
+		x = 0
+		y = 1
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = infantry_artillery_bonus
+			bonus = 1.0
+			uses = 1
+			category = cat_anti_tank
+		}
+	}
+    }
+	
+	shared_focus = {
+		id = FRA_anti_air
+		icon = GFX_focus_generic_air_defense2
+		cost = 8
+		prerequisite = {
+			focus = FRA_war_cannons
+		}
+		available = {}
+		ai_will_do = {
+			factor = 100
+		}
+		
+		relative_position_id = FRA_war_cannons
+		x = 0
+		y = 1
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = anti_air_bonus
+			bonus = 1.0
+			uses = 1
+			category = cat_anti_air
+		}
+	}
+    }
+	
+	shared_focus = {
+		id = FRA_mountaineers
+		icon = GFX_goal_yanshan
+		cost = 8
+		prerequisite = {
+			focus = FRA_anti_tank
+		}
+		available = {}
+		ai_will_do = {
+			factor = 100
+		}
+		
+		relative_position_id = FRA_anti_tank
+		x = 0
+		y = 1
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = mountaineers_bonus
+			bonus = 1.0
+			uses = 1
+			category = mountaineers_tech
+		}
+	}
+    }
+	
+	shared_focus = {
+		id = FRA_tank_support
+		icon = GFX_goal_light_tanks
+		cost = 8
+		prerequisite = {
+			focus = FRA_anti_air
+		}
+		available = {}
+		ai_will_do = {
+			factor = 100
+		}
+		
+		relative_position_id = FRA_anti_air
+		x = 0
+		y = 1
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = armor_bonus
+			bonus = 1.0
+			uses = 1
+			category = cat_light_armor
+		}
+	}
+    }
+	
+	shared_focus = {
+		id = FRA_centralized_command
+		icon = GFX_goal_focus_chain_army
+		cost = 8
+		prerequisite = {
+			focus = FRA_tank_support
+		}
+		prerequisite = {
+			focus = FRA_mountaineers
+		}
+		available = {}
+		ai_will_do = {
+			factor = 100
+		}
+		
+		relative_position_id = FRA_tank_support
+		x = -1
+		y = 1
+
+	completion_reward = {
+		
+	}
+    }
+	
+	shared_focus = {
+    id = FRA_lightning_war
+		icon = GFX_goal_doctrine_tank_warfare
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_reconstitute_CSG
+		}
+		
+		relative_position_id = FRA_reconstitute_CSG
+		x = 5
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 1.0
+			uses = 2
+			category = cat_mobile_warfare
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_mechanisation
+		icon = GFX_goal_generic_army_motorized
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_lightning_war
+		}
+		
+		relative_position_id = FRA_lightning_war
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 1.0
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_recon_training
+		icon = GFX_goal_generic_army_cooperation
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_lightning_war
+		}
+		
+		relative_position_id = FRA_lightning_war
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			name = infantry_artillery_bonus
+			bonus = 1.0
+			uses = 1
+			category = recon_tech
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_fuel
+		icon = GFX_goal_military_research
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_mechanisation
+		}
+		
+		relative_position_id = FRA_mechanisation
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = synth_resources
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_armored_battalions
+		icon = GFX_goal_generic_army_tanks2
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_recon_training
+		}
+		
+		relative_position_id = FRA_recon_training
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = cat_light_armor
+		}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_heavy_projects
+		icon = GFX_focus_ger_heavy_tanks
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_fuel
+		}
+		
+		relative_position_id = FRA_fuel
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			name = armor_bonus
+			bonus = 1.0
+			uses = 1
+			category = cat_heavy_armor
+		}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_special_forces
+		icon = GFX_goal_generic_special_forces
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_armored_battalions
+		}
+		
+		relative_position_id = FRA_armored_battalions
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = efficiency_tech
+		}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_officer_initiative
+		icon = GFX_focus_generic_military_mission
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_heavy_projects
+		}
+		prerequisite = {
+			focus = FRA_special_forces
+		}
+		
+		relative_position_id = FRA_heavy_projects
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	### Defense ###
+	shared_focus = {
+    id = FRA_tardieu_scheme
+		icon = GFX_goal_generic_military_sphere
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		x = 1
+		y = 6
+
+		completion_reward = {
+			add_ideas = FRA_tardieu_project
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_fortify_rhine
+		icon = GFX_goal_nested_fortifications
+		cost = 11
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_tardieu_scheme
+		}
+		
+		relative_position_id = FRA_tardieu_scheme
+		x = -1
+		y = 1
+
+		completion_reward = {
+		    28 = {
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 549
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 9503
+				instant_build = yes
+			}
+			}
+			798 = {
+		    add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 11560
+				instant_build = yes
+			}
+		    }
+			796 = {
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 11547
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 3558
+				instant_build = yes
+			}
+		    }
+			797 = {
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 9575
+				instant_build = yes
+			}
+		    }
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_fortify_ardennes
+		icon = GFX_goal_nested_fortifications
+		cost = 11
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_tardieu_scheme
+		}
+		
+		relative_position_id = FRA_tardieu_scheme
+		x = 1
+		y = 1
+
+		completion_reward = {
+			8 = {
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 6583
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 11407
+				instant_build = yes
+			}
+		    }
+		    795 = {
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 6537
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 11519
+				instant_build = yes
+			}
+		    }
+			34 = {
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 3516
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 9536
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 11483
+				instant_build = yes
+			}
+		    }
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_fortify_normandy
+		icon = GFX_focus_generic_coastal_fort
+		cost = 11
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_tardieu_scheme
+		}
+		
+		relative_position_id = FRA_tardieu_scheme
+		x = 0
+		y = 2
+
+		completion_reward = {
+			29 = {
+		    add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 11548
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 9500
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 11420
+				instant_build = yes
+			}
+		    }
+		    15 = {
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 9434
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 6449
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 485
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 6599
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 11535
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 3579
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 9550
+				instant_build = yes
+			}
+		    }
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_fortify_pyrenees
+		icon = GFX_goal_nested_fortifications
+		cost = 11
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_fortify_rhine
+		}
+		
+		relative_position_id = FRA_fortify_rhine
+		x = 0
+		y = 3
+
+		completion_reward = {
+			19 = {
+		    add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 9882
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 9884
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 3899
+				instant_build = yes
+			}
+		    }
+		    803 = {
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 743
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = bunker
+				level = 5
+				province = 11697
+				instant_build = yes
+			}
+		    }
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_fortify_alps
+		icon = GFX_goal_nested_fortifications
+		cost = 11
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_fortify_ardennes
+		}
+		
+		relative_position_id = FRA_fortify_ardennes
+		x = 0
+		y = 3
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_fortify_brittany
+		icon = GFX_focus_generic_coastal_fort
+		cost = 11
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_fortify_normandy
+		}
+		
+		relative_position_id = FRA_fortify_normandy
+		x = 0
+		y = 1
+
+		completion_reward = {
+			14 = {
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 3552
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 6572
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 9525
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 542
+				instant_build = yes
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 6536
+				instant_build = yes
+			}
+		}
+		785 = {
+			add_building_construction = {
+			    type = coastal_bunker
+				level = 5
+				province = 11508
+				instant_build = yes
+			}
+		}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_france_fortress
+		icon = GFX_NATFRA_flags2
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_fortify_pyrenees
+		}
+		prerequisite = {
+			focus = FRA_fortify_brittany
+		}
+		prerequisite = {
+			focus = FRA_fortify_alps
+		}
+		
+		relative_position_id = FRA_fortify_alps
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_ideas = FRA_fortress_france1
+		}
+    }
+	
+	### Navy ###
+	shared_focus = {
+    id = FRA_statut_naval_1924
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		x = 11
+		y = 6
+
+		completion_reward = {
+			navy_experience = 25
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_fusiliers_marins
+		icon = GFX_goal_navy_decision
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_statut_naval_1924
+		}
+		
+		relative_position_id = FRA_statut_naval_1924
+		x = -2
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = marine_tech
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_sardinia_triangle
+		icon = GFX_goal_generic_occypy_states_coastal
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_statut_naval_1924
+		}
+		
+		relative_position_id = FRA_statut_naval_1924
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_naval_bomber
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_statut_naval_1924
+		}
+		
+		relative_position_id = FRA_statut_naval_1924
+		x = 2
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = naval_bomber
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_vieille_ecolle
+		icon = GFX_goal_navy_hat_ships
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_statut_naval_1924
+		}
+		
+		relative_position_id = FRA_statut_naval_1924
+		x = -4
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 2
+			category = cat_fleet_in_being
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_battlecruiser
+		icon = GFX_focus_generic_cruiser2
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_vieille_ecolle
+		}
+		
+		relative_position_id = FRA_vieille_ecolle
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = bc_tech
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_carrier
+		icon = GFX_focus_generic_navy_battleship3
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_vieille_ecolle
+		}
+		
+		relative_position_id = FRA_vieille_ecolle
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = cv_tech
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_battleship
+		icon = GFX_goal_generic_navy_battleship
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_carrier
+			focus = FRA_battlecruiser
+		}
+		
+		relative_position_id = FRA_carrier
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = bb_tech
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_jeune_ecolle
+		icon = goal_generic_coastal_navy
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_statut_naval_1924
+		}
+		
+		relative_position_id = FRA_statut_naval_1924
+		x = 4
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			name = naval_doc_bonus
+			bonus = 1.0
+			uses = 2
+			category = cat_trade_interdiction
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_cruiser
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_jeune_ecolle
+		}
+		
+		relative_position_id = FRA_jeune_ecolle
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = cl_tech
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_destroyer
+		icon = GFX_focus_generic_destroyer
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_jeune_ecolle
+		}
+		
+		relative_position_id = FRA_jeune_ecolle
+		x = 1
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = dd_tech
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_submarine
+		icon = GFX_goal_generic_navy_submarine
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_destroyer
+			focus = FRA_cruiser
+		}
+		
+		relative_position_id = FRA_destroyer
+		x = -1
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = ss_tech
+			}
+		}
+    }
+	
+	### Air ###
+	shared_focus = {
+    id = FRA_decree_separation
+		icon = GFX_goal_generic_build_airforce
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		x = 11
+		y = 9
+
+		completion_reward = {
+			air_experience = 15
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_expand_fighter
+		icon = GFX_goal_generic_air_fighter
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_decree_separation
+		}
+		mutually_exclusive = {
+			focus = FRA_continue_bomber
+		}
+		
+		relative_position_id = FRA_decree_separation
+		x = -2
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = light_fighter
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_emphasise_cas
+		icon = GFX_goal_generic_air_fighter2
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_expand_fighter
+		}
+		
+		relative_position_id = FRA_expand_fighter
+		x = -1
+		y = 1
+
+		completion_reward = {
+            add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = cas_bomber
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_continue_bomber
+		icon = GFX_goal_generic_air_bomber
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_decree_separation
+		}
+		mutually_exclusive = {
+			focus = FRA_expand_fighter
+		}
+		
+		relative_position_id = FRA_decree_separation
+		x = 2
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = tactical_bomber
+			}
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_dive_attack
+		icon = GFX_goal_bombs_away
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_continue_bomber
+		}
+		
+		relative_position_id = FRA_continue_bomber
+		x = 1
+		y = 1
+
+		completion_reward = {
+            add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = cat_strategic_bomber
+			}
+		}
+    }
+	
+	### Foreign Policy ###
+	shared_focus = {
+    id = FRA_france_world
+		icon = GFX_NATFRA_francefirst
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		x = 28
+		y = 7
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_preserve_entente
+		icon = GFX_goal_generic_alliance
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_france_world
+		}
+		
+		relative_position_id = FRA_france_world
+		x = -9
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_allies_in_amsterdam
+		icon = GFX_goal_netherlands
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_preserve_entente
+		}
+		
+		relative_position_id = FRA_preserve_entente
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_settle_border
+		icon = GFX_goal_OTT_Land_Reform
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_allies_in_amsterdam
+		}
+		
+		relative_position_id = FRA_allies_in_amsterdam
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_intercolonial_cooperation
+		icon = GFX_goal_KTG_Colonial_Economy_Focus
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_settle_border
+		}
+		
+		relative_position_id = FRA_settle_border
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_protect_indian_shipments
+		icon = GFX_SIA_maritmesilkroad
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_intercolonial_cooperation
+		}
+		
+		relative_position_id = FRA_intercolonial_cooperation
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_ties_with_rome
+		icon = GFX_goal_SRD_kingdom_of_italy
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_preserve_entente
+		}
+		
+		relative_position_id = FRA_preserve_entente
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_discuss_tunis
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_ties_with_rome
+		}
+		
+		relative_position_id = FRA_ties_with_rome
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_lower_tariffs
+		icon = GFX_goal_RUS_Force_the_Straits
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_discuss_tunis
+		}
+		
+		relative_position_id = FRA_discuss_tunis
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_ciano_laval
+		icon = GFX_SOM_goal_put_down_the_lion
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_lower_tariffs
+		}
+		
+		relative_position_id = FRA_lower_tariffs
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_mediterranean_war_games
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_ciano_laval
+		}
+		
+		relative_position_id = FRA_ciano_laval
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_side_of_channel
+		icon = GFX_goal_united_kingdom
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_france_world
+		}
+		
+		relative_position_id = FRA_france_world
+		x = -5
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_irish_mission
+		icon = GFX_IRE_honorable_army
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_side_of_channel
+		}
+		
+		relative_position_id = FRA_side_of_channel
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_support_irish_claims
+		icon = GFX_IRE_Ulster
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_irish_mission
+		}
+		
+		relative_position_id = FRA_irish_mission
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_renegotiate_reparations
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_side_of_channel
+		}
+		
+		relative_position_id = FRA_side_of_channel
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_border_treaty
+		icon = GFX_focus_generic_treaty
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_renegotiate_reparations
+		}
+		
+		relative_position_id = FRA_renegotiate_reparations
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_red_menace
+		icon = GFX_goal_red_star
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_france_world
+		}
+		
+		relative_position_id = FRA_france_world
+		x = 3
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_eastern_direction
+		icon = GFX_goal_WIP
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_red_menace
+		}
+		
+		relative_position_id = FRA_red_menace
+		x = -3
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_reinforce_garrison
+		icon = GFX_goal_army_guy_2
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_eastern_direction
+		}
+		
+		relative_position_id = FRA_eastern_direction
+		x = -2
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_recognize_prussia
+		icon = GFX_goal_German_Bailout
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_eastern_direction
+		}
+		
+		relative_position_id = FRA_eastern_direction
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_finance_separtists
+		icon = GFX_goal_capitalist_system
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_eastern_direction
+		}
+		
+		relative_position_id = FRA_eastern_direction
+		x = 2
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_south_direction
+		icon = GFX_goal_cntfai
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_red_menace
+		}
+		
+		relative_position_id = FRA_red_menace
+		x = 3
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_guarantee_catalonia
+		icon = GFX_goal_generic_military_deal
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_south_direction
+		}
+		
+		relative_position_id = FRA_south_direction
+		x = -2
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_supply_royalists
+		icon = GFX_Improve_Spanish_Relations
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_south_direction
+		}
+		
+		relative_position_id = FRA_south_direction
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_rally_republicans
+		icon = GFX_focus_intervention_spain_republic
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_south_direction
+		}
+		
+		relative_position_id = FRA_south_direction
+		x = 2
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_dearest_enemy
+		icon = GFX_goal_russia
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_france_world
+		}
+		
+		relative_position_id = FRA_france_world
+		x = 11
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_arm_poles
+		icon = GFX_goal_Arms_Export
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_dearest_enemy
+		}
+		
+		relative_position_id = FRA_dearest_enemy
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_bucharest_talks
+		icon = GFX_goal_royalist_romania
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_arm_poles
+		}
+		
+		relative_position_id = FRA_arm_poles
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_blockade_straits
+		icon = GFX_goal_generic_sea_focused_navy
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_bucharest_talks
+		}
+		
+		relative_position_id = FRA_bucharest_talks
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_end_trade_war
+		icon = GFX_goal_generic_positive_trade_relations_gold
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_dearest_enemy
+		}
+		
+		relative_position_id = FRA_dearest_enemy
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_pressure_turks
+		icon = GFX_goal_OTT_Abolish_Mecelle
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_end_trade_war
+		}
+		
+		relative_position_id = FRA_end_trade_war
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_league_entente
+		icon = GFX_focus_russian_cooperation
+		cost = 4
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_pressure_turks
+		}
+		
+		relative_position_id = FRA_pressure_turks
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	### Economical Development ###
+	shared_focus = {
+    id = FRA_develop_metropole
+		icon = GFX_goal_economic_control
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		x = 19
+		y = 0
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_modernize_silk_industry
+		icon = GFX_silk
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_develop_metropole
+		}
+		
+		relative_position_id = FRA_develop_metropole
+		x = -3
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_northern_coal
+		icon = GFX_goal_generic_coal_mining
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_modernize_silk_industry
+		}
+		
+		relative_position_id = FRA_modernize_silk_industry
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_eastern_steel
+		icon = GFX_focus_generic_steel
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_modernize_silk_industry
+		}
+		
+		relative_position_id = FRA_modernize_silk_industry
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_expand_provencal_ports
+		icon = GFX_generic_shipyard
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_eastern_steel
+		}
+		prerequisite = {
+			focus = FRA_northern_coal
+		}
+		
+		relative_position_id = FRA_eastern_steel
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_rural_electricity
+		icon = GFX_generic_electricity
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_develop_metropole
+		}
+		
+		relative_position_id = FRA_develop_metropole
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_connect_periphery
+		icon = GFX_generic_railway_construction
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_rural_electricity
+		}
+		
+		relative_position_id = FRA_rural_electricity
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_power_dams
+		icon = GFX_goal_dam
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_connect_periphery
+		}
+		
+		relative_position_id = FRA_connect_periphery
+		x = 0
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_encourage_cattle_breeding
+		icon = GFX_Cows
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_develop_metropole
+		}
+		
+		relative_position_id = FRA_develop_metropole
+		x = 3
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_revitalize_winemaking
+		icon = GFX_goal_GEO_wine
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_encourage_cattle_breeding
+		}
+		
+		relative_position_id = FRA_encourage_cattle_breeding
+		x = -1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_olive_plantations
+		icon = GFX_goal_agriculture
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_encourage_cattle_breeding
+		}
+		
+		relative_position_id = FRA_encourage_cattle_breeding
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	
+	shared_focus = {
+    id = FRA_tours_to_azur_coast
+		icon = GFX_goal_WIP
+		cost = 8
+		available = {  }
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = FRA_revitalize_winemaking
+		}
+		prerequisite = {
+			focus = FRA_olive_plantations
+		}
+		
+		relative_position_id = FRA_revitalize_winemaking
+		x = 1
+		y = 1
+
+		completion_reward = {
+			
+		}
+    }
+	

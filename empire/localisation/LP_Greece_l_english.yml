@@ -1,0 +1,32 @@
+﻿l_english:
+# Parties #
+
+
+# Country names #
+GRE_anarcho_collectivist:0 "Hellenic Commune"
+GRE_anarcho_collectivist_DEF:0 "the Hellenic Commune"
+GRE_vanguardist:0 "Hellenic Commune"
+GRE_vanguardist_DEF:0 "the Hellenic Commune"
+GRE_social_nationalist:0 "Hellenic Commune"
+GRE_social_nationalist_DEF:0 "the Hellenic Commune"
+GRE_democratic_socialist:0 "Hellenic Commune"
+GRE_democratic_socialist_DEF:0 "the Hellenic Commune"
+GRE_radical_progressive: "Kingdom of Greece"
+GRE_radical_progressive_DEF:0 "the Kingdom of Greece"
+GRE_market_liberal: "Kingdom of Greece"
+GRE_market_liberal_DEF:0 "the Kingdom of Greece"
+GRE_social_conservative: "Kingdom of Greece"
+GRE_social_conservative_DEF:0 "the Kingdom of Greece"
+GRE_authoritarian_despotist: "Kingdom of Greece"
+GRE_authoritarian_despotist_DEF:0 "the Kingdom of Greece"
+GRE_integralist: "Kingdom of Greece"
+GRE_integralist_DEF:0 "the Kingdom of Greece"
+GRE_anarcho_collectivist_ADJ:0 "Hellenic"
+GRE_vanguardist_ADJ:0 "Hellenic"
+GRE_social_nationalist_ADJ:0 "Hellenic"
+GRE_democratic_socialist_ADJ:0 "Hellenic"
+GRE_radical_progressive_ADJ: "Greek"
+GRE_market_liberal_ADJ: "Greek"
+GRE_social_conservative_ADJ: "Greek"
+GRE_authoritarian_despotist_ADJ: "Greek"
+GRE_integralist_ADJ: "Greek"

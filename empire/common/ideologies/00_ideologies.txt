@@ -1,18 +1,18 @@
 ideologies = {
 
-    syndicalist = {
+    anarcho_collectivist = {
 		types = {
-			syndicalist_subtype = {} 
+			anarcho_collectivist_subtype = {} 
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SYNDICALIST_1"
-			"FACTION_NAME_SYNDICALIST_2"
-			"FACTION_NAME_SYNDICALIST_3"
-			"FACTION_NAME_SYNDICALIST_4"
-			"FACTION_NAME_SYNDICALIST_5"
-			"FACTION_NAME_SYNDICALIST_6"
+			"FACTION_NAME_ANARCHO_COLLECTIVIST_1"
+			"FACTION_NAME_ANARCHO_COLLECTIVIST_2"
+			"FACTION_NAME_ANARCHO_COLLECTIVIST_3"
+			"FACTION_NAME_ANARCHO_COLLECTIVIST_4"
+			"FACTION_NAME_ANARCHO_COLLECTIVIST_5"
+			"FACTION_NAME_ANARCHO_COLLECTIVIST_6"
 		}
-		color = { 155 0 0 }
+		color = { 255 111 111 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -55,6 +55,34 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
+	
+	social_nationalist = {
+		types = {
+			social_nationalist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_NATIONALIST_1"
+			"FACTION_NAME_SOCIAL_NATIONALIST_2"
+			"FACTION_NAME_SOCIAL_NATIONALIST_3"
+			"FACTION_NAME_SOCIAL_NATIONALIST_4"
+			"FACTION_NAME_SOCIAL_NATIONALIST_5"
+			"FACTION_NAME_SOCIAL_NATIONALIST_6"
+		}
+		color = { 165 42 42 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.40
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
 	democratic_socialist = {
 		types = {
 			democratic_socialist_subtype = {}
@@ -67,7 +95,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_SOCIALIST_5"
 			"FACTION_NAME_DEMOCRATIC_SOCIALIST_6"
 		}
-		color = { 255 85 85 }
+		color = { 199 21 133 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -83,17 +111,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	social_liberal = {
+	radical_progressive = {
 		types = {
-			social_liberal_subtype = {}
+			radical_progressive_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_LIBERAL_1"
-			"FACTION_NAME_SOCIAL_LIBERAL_2"
-			"FACTION_NAME_SOCIAL_LIBERAL_3"
-			"FACTION_NAME_SOCIAL_LIBERAL_4"
-			"FACTION_NAME_SOCIAL_LIBERAL_5"
-			"FACTION_NAME_SOCIAL_LIBERAL_6"
+			"FACTION_NAME_RADICAL_PROGRESSIVE_1"
+			"FACTION_NAME_RADICAL_PROGRESSIVE_2"
+			"FACTION_NAME_RADICAL_PROGRESSIVE_3"
+			"FACTION_NAME_RADICAL_PROGRESSIVE_4"
+			"FACTION_NAME_RADICAL_PROGRESSIVE_5"
+			"FACTION_NAME_RADICAL_PROGRESSIVE_6"
 		}
 		color = { 255 128 0 }
 		rules = {
@@ -151,7 +179,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
 		}
-		color = { 102 178 255 }
+		color = { 0 0 255 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -167,19 +195,19 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	national_conservative = {
+	authoritarian_despotist = {
 		types = {
-			national_conservative_subtype = {}
+			authoritarian_despotist_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_1"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_2"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_3"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_4"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_5"
-			"FACTION_NAME_NATIONAL_CONSERVATIVE_6"
+			"FACTION_NAME_AUTHORITARIAN_DESPOTIST_1"
+			"FACTION_NAME_AUTHORITARIAN_DESPOTIST_2"
+			"FACTION_NAME_AUTHORITARIAN_DESPOTIST_3"
+			"FACTION_NAME_AUTHORITARIAN_DESPOTIST_4"
+			"FACTION_NAME_AUTHORITARIAN_DESPOTIST_5"
+			"FACTION_NAME_AUTHORITARIAN_DESPOTIST_6"
 		}
-		color = { 0 0 255 }
+		color = { 105 105 105 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -208,33 +236,6 @@ ideologies = {
 			"FACTION_NAME_INTEGRALIST_6"
 		}
 		color = { 0 0 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.40
-			generate_wargoal_tension = 0.25
-		}
-		ai_neutral = yes
-		can_be_boosted = no
-	}
-
-	social_nationalist = {
-		types = {
-			social_nationalist_subtype = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_NATIONALIST_1"
-			"FACTION_NAME_SOCIAL_NATIONALIST_2"
-			"FACTION_NAME_SOCIAL_NATIONALIST_3"
-			"FACTION_NAME_SOCIAL_NATIONALIST_4"
-			"FACTION_NAME_SOCIAL_NATIONALIST_5"
-			"FACTION_NAME_SOCIAL_NATIONALIST_6"
-		}
-		color = { 102 51 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

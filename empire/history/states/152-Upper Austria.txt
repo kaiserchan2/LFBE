@@ -2,9 +2,9 @@
 state={
 	id=152
 	name="STATE_152"
-	manpower = 2275377
+	manpower = 1234344
 	
-	state_category = city
+	state_category = large_town
 	
 	resources={
 		steel=5 # was: 8
@@ -21,12 +21,12 @@ state={
 			9665 3
 		}
 		victory_points = {
-			732 10
+			732 5
 		}
 		add_core_of = AUS
 	}
 
 	provinces={
-		732 3674 3684 3703 6552 6687 6691 6708 6723 9650 9665 11651 5283 543 11525
+		732 3703 6552 6708 6723 9665 11651 5283 543 11525
 	}
 }

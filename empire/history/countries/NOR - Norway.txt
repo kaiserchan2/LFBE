@@ -26,27 +26,13 @@ set_convoys = 200
 set_stability = 0.7
 
 set_politics = {
-	ruling_party = national_conservative
-	last_election = "1933.10.16"
+	ruling_party = democratic_socialist
+	last_election = "1930.10.20"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	vanguardist = 4
-	social_liberal = 20
-	market_liberal = 17
-	social_conservative = 14
-	national_conservative = 40
-	integralist = 5
-}
-
-create_country_leader = {
-	name = "Johan H. Andresen"
-	desc = "POLITICS_JOHAN_ANDRESEN_DESC"
-	picture = "Portrait_Norway_Johan_Andresen.dds"
-	expire = "1965.1.1"
-	ideology = national_conservative_subtype
-	traits = {}
+	democratic_socialist = 100
 }
 
 create_country_leader = {
@@ -54,43 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_OSCAR_TORP_DESC"
 	picture = "Portrait_Norway_Oscar_Torp.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Jens Hundseid"
-	desc = "POLITICS_JENS_HUNDSEID_DESC"
-	picture = "Portrait_Norway_Jens_Hundseid.dds"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Vidkun Quisling"
-	desc = "POLITICS_VIDKUN_QUISLING_DESC"
-	picture = "Portrait_Norway_Vidkun_Quisling.dds"
-	expire = "1965.1.1"
-	ideology = integralist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Johan Ludwig Mowinckel"
-	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
-	picture = "Portrait_Norway_Johan_Mowinckel.dds"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Adam Egede-Nissen"
-	desc = "POLITICS_ADAM_EGEDE_NISSEN_DESC"
-	picture = "Portrait_Norway_Adam_Egede-Nissen.dds"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 

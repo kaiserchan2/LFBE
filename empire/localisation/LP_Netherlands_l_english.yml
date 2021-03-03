@@ -1,0 +1,32 @@
+﻿l_english:
+# Parties #
+
+
+# Country names #
+HOL_anarcho_collectivist:0 "Batavian Soviet Republic"
+HOL_anarcho_collectivist_DEF:0 "the Batavian Soviet Republic"
+HOL_vanguardist:0 "Batavian Soviet Republic"
+HOL_vanguardist_DEF:0 "the Batavian Soviet Republic"
+HOL_social_nationalist:0 "Batavian Soviet Republic"
+HOL_social_nationalist_DEF:0 "the Batavian Soviet Republic"
+HOL_democratic_socialist:0 "Batavian Soviet Republic"
+HOL_democratic_socialist_DEF:0 "the Batavian Soviet Republic"
+HOL_radical_progressive:0 "Netherlands"
+HOL_radical_progressive_DEF:0 "the Netherlands"
+HOL_market_liberal:0 "Netherlands"
+HOL_market_liberal_DEF:0 "the Netherlands"
+HOL_social_conservative:0 "Netherlands"
+HOL_social_conservative_DEF:0 "the Netherlands"
+HOL_authoritarian_despotist:0 "Netherlands"
+HOL_authoritarian_despotist_DEF:0 "the Netherlands"
+HOL_integralist:0 "Netherlands"
+HOL_integralist_DEF:0 "the Netherlands"
+HOL_anarcho_collectivist_ADJ:0 "Batavian"
+HOL_vanguardist_ADJ:0 "Batavian"
+HOL_social_nationalist_ADJ:0 "Batavian"
+HOL_democratic_socialist_ADJ:0 "Batavian"
+HOL_radical_progressive_ADJ:0 "Dutch"
+HOL_market_liberal_ADJ:0 "Dutch"
+HOL_social_conservative_ADJ:0 "Dutch"
+HOL_authoritarian_despotist_ADJ:0 "Dutch"
+HOL_integralist_ADJ:0 "Dutch"

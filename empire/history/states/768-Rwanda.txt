@@ -1,11 +1,11 @@
 state={
 	id=768
-	name="STATE_768" # Rwanda
+	name="STATE_768"
 	
 	state_category = pastoral
 
 	history={
-		owner = FRA
+		owner = BEL
 		victory_points = {
 			9962 1
 		}

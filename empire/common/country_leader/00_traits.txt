@@ -1567,7 +1567,7 @@ leader_traits = {
 		production_speed_synthetic_refinery_factor = 0.1
 	}
 
-	falangist_syndicalist = {
+	falangist_anarcho_collectivist = {
 		random = no
 		sprite = 13
 		consumer_goods_factor = -0.05

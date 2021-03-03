@@ -7,21 +7,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservative
-	last_election = "1936.1.1"
+	ruling_party = authoritarian_despotist
+	last_election = "1879.7.31"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_conservative = 100
+	authoritarian_despotist = 100
 }
 
 create_country_leader = {
-	name = "Pandatsang Rapga"
-	desc = "POLITICS_PANDATSANG_RAPGA_DESC"
-	picture = "Portrait_Tibet_Pandatsang_Rapga.dds"
+	name = "Thubten Gyatso"
+	desc = "POLITICS_THUBTEN_GYATSO_DESC"
+	picture = "Portrait_Tibet_Thubten_Gyatso.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }

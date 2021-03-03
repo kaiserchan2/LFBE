@@ -1,0 +1,30 @@
+
+state={
+	id=6
+	name="STATE_6" 
+	manpower = 1697894
+	resources={
+		steel=25 # was: 48
+	}
+	
+	state_category = metropolis
+
+	history={
+		owner = BEL
+		victory_points = { 516 25 }
+		victory_points = { 6598 15 }
+		victory_points = { 13068 3 }
+		victory_points = { 9574 3 }
+		buildings = {
+			infrastructure = 9
+			arms_factory = 3
+			industrial_complex = 5
+		}
+		
+		add_core_of = BEL
+	}
+
+	provinces={
+		516 6598 11419 13068 9574
+	}
+}

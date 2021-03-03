@@ -4,7 +4,7 @@ state={
 	name="STATE_153"
 	manpower = 969883
 	
-	state_category = city
+	state_category = town
 
 	history={
 		owner = AUS
@@ -13,9 +13,6 @@ state={
 		}
 		victory_points = {
 			9630 3 
-		}
-		victory_points = {
-			6673 1 
 		}
 		buildings = {
 			infrastructure = 5
@@ -26,6 +23,6 @@ state={
 	}
 
 	provinces={
-		656 668 671 673 6673 9633 9636 11618 6675 9630 11615 
+		656 671 673 9633 9636 11618 6675 9630 11615 
 	}
 }

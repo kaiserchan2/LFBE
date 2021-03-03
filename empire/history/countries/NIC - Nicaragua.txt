@@ -14,21 +14,21 @@ set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = social_conservative
-	last_election = "1932.10.6"
+	ruling_party = radical_progressive
+	last_election = "1932.11.6"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	social_conservative = 100
+	radical_progressive = 100
 }
 
 create_country_leader = {
-	name = "Adolfo Díaz Recinos"
-	desc = "POLITICS_ADOLFO_DIAZ_DESC"
-	picture = "Portrait_Nicaragua_Adolfo_Diaz.dds"
+	name = "Juan Bautista Sacasa"
+	desc = "POLITICS_JUAN_SACASA_DESC"
+	picture = "Portrait_Nicaragua_Juan_Sacasa.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }

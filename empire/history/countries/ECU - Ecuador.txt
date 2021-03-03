@@ -13,21 +13,21 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = social_liberal
-	last_election = "1933.12.15"
+	ruling_party = radical_progressive
+	last_election = "1925.7.10"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	social_liberal = 100
+	radical_progressive = 100
 }
 
 create_country_leader = {
-	name = "Manuel Agustín Aguirre"
-	desc = "POLITICS_MANUEL_AGUIRRE_DESC"
-	picture = "Portrait_Ecuador_Manuel_Aguirre.dds"
+	name = "Isidro Ayora"
+	desc = "POLITICS_ISIDRO_AYORA_DESC"
+	picture = "Portrait_Ecuador_Isidro_Ayora.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }

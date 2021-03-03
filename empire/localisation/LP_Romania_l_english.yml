@@ -1,0 +1,32 @@
+﻿l_english:
+# Parties #
+
+
+# Country names #
+ROM_anarcho_collectivist:0 "Romanian People's Republic"
+ROM_anarcho_collectivist_DEF:0 "the Romanian People's Republic"
+ROM_vanguardist:0 "Romanian People's Republic"
+ROM_vanguardist_DEF:0 "the Romanian People's Republic"
+ROM_social_nationalist:0 "Romanian People's Republic"
+ROM_social_nationalist_DEF:0 "the Romanian People's Republic"
+ROM_democratic_socialist:0 "Romanian People's Republic"
+ROM_democratic_socialist_DEF:0 "the Romanian People's Republic"
+ROM_radical_progressive:0 "Romania"
+ROM_radical_progressive_DEF:0 "Romania"
+ROM_market_liberal:0 "Romania"
+ROM_market_liberal_DEF:0 "Romania"
+ROM_social_conservative:0 "Romania"
+ROM_social_conservative_DEF:0 "Romania"
+ROM_authoritarian_despotist:0 "Romania"
+ROM_authoritarian_despotist_DEF:0 "Romania"
+ROM_integralist:0 "Romania"
+ROM_integralist_DEF:0 "Romania"
+ROM_anarcho_collectivist_ADJ:0 "Romanian"
+ROM_vanguardist_ADJ:0 "Romanian"
+ROM_social_nationalist_ADJ:0 "Romanian"
+ROM_democratic_socialist_ADJ:0 "Romanian"
+ROM_radical_progressive_ADJ:0 "Romanian"
+ROM_market_liberal_ADJ:0 "Romanian"
+ROM_social_conservative_ADJ:0 "Romanian"
+ROM_authoritarian_despotist_ADJ:0 "Romanian"
+ROM_integralist_ADJ:0 "Romanian"

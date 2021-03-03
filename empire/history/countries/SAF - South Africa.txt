@@ -31,20 +31,53 @@ set_convoys = 25
 
 set_politics = {
 	ruling_party = social_conservative
-	last_election = "1933.5.17"
+	last_election = "1929.6.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	social_conservative = 100
+    anarcho_collectivist = 11
+	vanguardist = 11
+    radical_progressive = 6
+    market_liberal = 8
+	social_conservative = 31
+	authoritarian_despotist = 22
+	integralist = 11
 }
 
 create_country_leader = {
-	name = "Jan Christian Smuts"
-	desc = "POLITICS_JAN_SMUTS_DESC"
-	picture = "Portrait_SAF_Jan_Smuts.dds"
+	name = "Edward VIII"
+	desc = "POLITICS_EDWARD_VIII_DESC"
+	picture = "Portrait_SAF_Edward_VIII.dds"
+	expire = "1965.1.1"
+	ideology = radical_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = "POLITICS_EDWARD_VIII_DESC"
+	picture = "Portrait_SAF_Edward_VIII.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = "POLITICS_EDWARD_VIII_DESC"
+	picture = "Portrait_SAF_Edward_VIII.dds"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = "POLITICS_EDWARD_VIII_DESC"
+	picture = "Portrait_SAF_Edward_VIII.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }
 

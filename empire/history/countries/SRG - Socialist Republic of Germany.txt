@@ -1,0 +1,75 @@
+capital = 64
+
+oob = "SRG_1936"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.15
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	transport = 1
+}
+
+set_politics = {
+	ruling_party = vanguardist
+	last_election = "1931.9.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    anarcho_collectivist = 23
+	vanguardist = 40
+	social_nationalist = 13
+	democratic_socialist = 24
+	radical_progressive = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_despotist = 0
+	integralist = 0
+}
+
+create_country_leader = {
+	name = "Rudolf Rocker"
+	desc = "POLITICS_RUDOLF_ROCKER_DESC"
+	picture = "Portrait_SRG_Rudolf_Rocker.dds"
+	expire = "1965.1.1"
+	ideology = anarcho_collectivist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = "POLITICS_KARL_LIEBKNECHT_DESC"
+	picture = "Portrait_SRG_Karl_Liebknecht.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Gottfried Feder"
+	desc = "POLITICS_GOTTFRIED_FEDER_DESC"
+	picture = "Portrait_SRG_Gottfried_Feder.dds"
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Georg Ledebour"
+	desc = "POLITICS_GEORG_LEDEBOUR_DESC"
+	picture = "Portrait_SRG_Georg_Ledebour.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {}
+}

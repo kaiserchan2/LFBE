@@ -15,38 +15,24 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_liberal
-	last_election = "1934.10.25"
+	ruling_party = authoritarian_despotist
+	last_election = "1930.4.24"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-    vanguardist = 7
-    social_liberal = 38
-	market_liberal = 8
-	social_conservative = 8
-	national_conservative = 32
-	integralist = 7
+	authoritarian_despotist = 100
 }
 
 set_stability = 0.50
-
-create_country_leader = {
-	name = "Johann Koplenig"
-	desc = "POLITICS_JOHANN_KOPLENIG_DESC"
-	picture = "Portrait_Austria_Johann_Koplenig.dds"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
-	traits = {}
-}
 
 create_country_leader = {
 	name = "Franz Ferdinand I"
 	desc = "POLITICS_FRANZ_FERDINAND_DESC"
 	picture = "Portrait_Austria_Franz_Ferdinand_I.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }
 
@@ -73,7 +59,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANZ_FERDINAND_DESC"
 	picture = "Portrait_Austria_Franz_Ferdinand_I.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }
 

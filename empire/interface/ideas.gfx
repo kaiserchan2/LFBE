@@ -297,8 +297,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/HOL/HOL_Staatsvakbond.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_HOL_syndicalist_neutrality"
-		texturefile = "gfx/interface/ideas/HOL/HOL_syndicalist_neutrality.tga"
+		name = "GFX_idea_HOL_anarcho_collectivist_neutrality"
+		texturefile = "gfx/interface/ideas/HOL/HOL_anarcho_collectivist_neutrality.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_HOL_totalist_military"
@@ -536,12 +536,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/NOR_statspolitiet.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_NOR_syndicalist_industry_idea"
+		name = "GFX_idea_NOR_anarcho_collectivist_industry_idea"
 		texturefile = "gfx/interface/ideas/ideas/NOR_planned_economy.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_NOR_syndicalist_norway_idea_1"
-		texturefile = "gfx/interface/ideas/ideas/NOR_syndicalist_constitution.tga"
+		name = "GFX_idea_NOR_anarcho_collectivist_norway_idea_1"
+		texturefile = "gfx/interface/ideas/ideas/NOR_anarcho_collectivist_constitution.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_NOR_united_airforce_idea"
@@ -549,7 +549,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_NOR_uob_support_idea"
-		texturefile = "gfx/interface/ideas/ideas/NOR_syndicalist_support.tga"
+		texturefile = "gfx/interface/ideas/ideas/NOR_anarcho_collectivist_support.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_NOR_weak_economy_1"
@@ -785,20 +785,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/idea_generic_syndicalism_drift_bonus.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_syndicalist_fort"
-		texturefile = "gfx/interface/ideas/ideas/idea_generic_syndicalist_fort.tga"
+		name = "GFX_idea_generic_anarcho_collectivist_fort"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_anarcho_collectivist_fort.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_syndicalist_manpower"
-		texturefile = "gfx/interface/ideas/ideas/idea_generic_syndicalist_manpower.tga"
+		name = "GFX_idea_generic_anarcho_collectivist_manpower"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_anarcho_collectivist_manpower.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_syndicalist_medal"
-		texturefile = "gfx/interface/ideas/ideas/idea_generic_syndicalist_medal.tga"
+		name = "GFX_idea_generic_anarcho_collectivist_medal"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_anarcho_collectivist_medal.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_syndicalist_monarchy"
-		texturefile = "gfx/interface/ideas/ideas/idea_generic_syndicalist_monarchy.tga"
+		name = "GFX_idea_generic_anarcho_collectivist_monarchy"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_anarcho_collectivist_monarchy.tga"
 	}
 	### AST ###
 
@@ -1409,5 +1409,47 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_CAF_cayenne"
 		texturefile = "gfx/interface/ideas/ideas/CAF_cayenne.tga"
+	}
+	
+	### Other ###
+	spriteType = {
+		name = "GFX_idea_generic_constitutional_guarantee"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_constitutional_guarantee.tga"
+	}
+	spriteType = {
+		name = "GFX_Economic_Meltdown"
+		texturefile = "gfx/interface/ideas/ideas/Economic_Meltdown.tga"
+	}
+	spriteType = {
+		name = "GFX_debts"
+		texturefile = "gfx/interface/ideas/ideas/debts.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_parliamentary_monarchy"
+		texturefile = "gfx/interface/ideas/ideas/idea_parliamentary_monarchy.tga"
+	}
+	spriteType = {
+		name = "GFX_christian_education"
+		texturefile = "gfx/interface/ideas/ideas/christian_education.tga"
+	}
+	spriteType = {
+		name = "GFX_fortification_focus"
+		texturefile = "gfx/interface/ideas/ideas/fortification_focus.tga"
+	}
+	spriteType = {
+		name = "GFX_fra_unity"
+		texturefile = "gfx/interface/ideas/ideas/fra_unity.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_goods"
+		texturefile = "gfx/interface/ideas/ideas/generic_goods.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_government_stability"
+		texturefile = "gfx/interface/ideas/ideas/generic_government_stability.tga"
+	}
+	spriteType = {
+		name = "GFX_OTT_Loosen_Policy"
+		texturefile = "gfx/interface/ideas/ideas/OTT_Loosen_Policy.tga"
 	}
 }

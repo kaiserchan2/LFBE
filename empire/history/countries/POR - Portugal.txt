@@ -5,6 +5,9 @@ set_naval_oob = "POR_1936_naval_legacy"
 
 set_research_slots = 3
 
+set_stability = 0.4
+set_war_support = 0.2
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -23,54 +26,25 @@ set_technology = {
 
 set_convoys = 50
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.3.5"
+	ruling_party = anarcho_collectivist
+	last_election = "1929.12.16"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 5
-	communism = 5
-	neutrality = 90
+	anarcho_collectivist = 100
 }
 
 set_convoys = 100
-set_stability = 0.75
-
 
 create_country_leader = {
-	name = "António de Oliveira Salazar"
-	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
-	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salazar.dds"
+	name = "José Santos Arranha"
+	desc = "POLITICS_JOSE_SANTOS_DESC"
+	picture = "Portrait_Portugal_Jose_Santos.dds"
 	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
+	ideology = anarcho_collectivist_subtype
+	traits = {}
 }
-
-create_country_leader = {
-	name = "Bento Gonçalves"
-	desc = "POLITICS_BENTO_GONCALVES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Francisco de Barcelos Rolão Preto"
-	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
 
 create_corps_commander = {
 	name = "José Vicente de Freitas"

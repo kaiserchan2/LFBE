@@ -17,18 +17,13 @@ set_convoys = 40
 
 set_politics = {
 	ruling_party = social_conservative
-	last_election = "1933.1.24"
+	last_election = "1932.2.16"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-    syndicalist = 9
-	vanguardist = 9
-	social_liberal = 9
-	market_liberal = 30
-	social_conservative = 33
-	integralist = 10
+	social_conservative = 100
 }
 
 create_country_leader = {
@@ -38,103 +33,4 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
-}
-create_country_leader = {
-	name = "Seán Francis Lemass"
-	desc = "POLITICS_SEAN_LEMASS_DESC"
-	picture = "Portrait_Ireland_Sean_Lemass.dds"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "William Norton"
-	desc = "POLITICS_WILLIAM_NORTON_DESC"
-	picture = "Portrait_Ireland_William_Norton.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Gearóid Ó Cuinneagáin"
-	desc = "POLITICS_GEAROID_CUINNEAGAIN_DESC"
-	picture = "Portrait_Ireland_Gearoid_Cuinneagain.dds"
-	expire = "1965.1.1"
-	ideology = integralist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "George Gilmore"
-	desc = "POLITICS_GEORGE_GILMORE_DESC"
-	picture = "Portrait_Ireland_George_Gilmore.dds"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "James Larkin"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "Portrait_Ireland_James_Larkin.dds"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_corps_commander = {
-	name = "Hugo MacNeil"
-	picture = "Portrait_Ireland_Hugo_MacNeil.dds"
-	traits = {}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Eoin O'Duffy"
-	picture = "Portrait_Ireland_Eoin_O'Duffy.dds"
-	traits = {}
-	skill = 3
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Emmet Dalton"
-	picture = "Portrait_Ireland_Emmet_Dalton.dds"
-	traits = {}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Robert Mulcahy"
-	picture = "Portrait_Ireland_Robert_Mulcahy.dds"
-	traits = {}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Sean Mac Eoin"
-	picture = "Portrait_Ireland_Sean_Mac_Eoin.dds"
-	traits = {}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
 }

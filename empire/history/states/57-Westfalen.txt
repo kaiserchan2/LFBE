@@ -6,15 +6,12 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = PRG
+		owner = GER
 		victory_points = {
 			495 5 
 		}
 		victory_points = {
 			11346 10 
-		}
-		victory_points = {
-			405 1
 		}
 		buildings = {
 			infrastructure = 8
@@ -23,7 +20,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = PRG
+		add_core_of = GER
 	}
 
 	provinces={

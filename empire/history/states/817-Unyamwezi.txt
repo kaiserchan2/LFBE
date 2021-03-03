@@ -1,0 +1,19 @@
+state={
+	id=817
+	name="STATE_817"
+	manpower = 2633713
+
+	state_category = rural
+
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		2176 2281 4171 5180 8144 10932 10988 11017 2308
+	}
+}

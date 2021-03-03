@@ -22,22 +22,22 @@ set_convoys = 20
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic_socialist
-	last_election = "1932.10.30"
+	ruling_party = radical_progressive
+	last_election = "1931.10.4"
 	election_frequency = 48  
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic_socialist = 100
+	radical_progressive = 100
 }
 
 create_country_leader = {
-	name = "Marmaduke Grove"
-	desc = "POLITICS_MARMADUKE_GROVE_DESC"
-	picture = "Portrait_Chile_Marmaduke_Grove.dds"
+	name = "Carlos Ibáñez del Campo"
+	desc = "POLITICS_CARLOS_IBANEZ_DESC"
+	picture = "Portrait_Chile_Carlos_Ibanez.dds"
 	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }
 

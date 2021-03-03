@@ -25,21 +25,21 @@ set_stability = 0.2
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = social_nationalist
-	last_election = "1934.7.1"
-	election_frequency = 60
+	ruling_party = democratic_socialist
+	last_election = "1932.11.17"
+	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 100
+	democratic_socialist = 100
 }
 
 create_country_leader = {
-	name = "Plutarco Elías Calles"
-	desc = "POLITICS_PLUTARCO_CALLES_DESC"
-	picture = "Portrait_Mexico_Plutarco_Calles.dds"
+	name = "Francisco "Pancho" Villa"
+	desc = "POLITICS_FRANCISCO_VILLA_DESC"
+	picture = "Portrait_Mexico_Pancho_Villa.dds"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {}
 }
 

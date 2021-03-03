@@ -8,19 +8,51 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = market_liberal
 	last_election = "1929.12.21"
-	election_frequency = 72
-	elections_allowed = no
+	election_frequency = 60
+	elections_allowed = yes
 }
 set_popularities = {
-	social_liberal = 100
+	market_liberal = 100
 }
 
 create_country_leader = {
 	name = "Fuad I"
 	desc = "POLITICS_DESC_FUAD_I"
-	picture = "Portrait_Egypr_Fuad_I.dds"
-	ideology = social_liberal_subtype
+	picture = "Portrait_Egypt_Fuad_I.dds"
+	ideology = radical_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_DESC_FUAD_I"
+	picture = "Portrait_Egypt_Fuad_I.dds"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_DESC_FUAD_I"
+	picture = "Portrait_Egypt_Fuad_I.dds"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_DESC_FUAD_I"
+	picture = "Portrait_Egypt_Fuad_I.dds"
+	ideology = authoritarian_despotist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_DESC_FUAD_I"
+	picture = "Portrait_Egypt_Fuad_I.dds"
+	ideology = integralist_subtype
 	traits = {}
 }

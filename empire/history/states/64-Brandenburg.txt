@@ -2,13 +2,13 @@
 state={
 	id=64
 	name="STATE_64"
-	manpower = 4717785
+	manpower = 5281631
 
 	state_category = metropolis
 
 
 	history={
-		owner = GER
+		owner = SRG
 		victory_points = {
 			6521 50 
 		}
@@ -18,6 +18,9 @@ state={
 		victory_points = {
 		    3499 3
 		}
+		victory_points = {
+			3522 3 
+		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3
@@ -25,10 +28,10 @@ state={
 			air_base = 6
 
 		}
-		add_core_of = GER
+		add_core_of = SRG
 	}
 
 	provinces={
-		375 3367 3499 6521 9428 9496 11219 11444 11505 3207 
+		375 3367 3499 6521 9428 9496 11219 11444 11505 3207 3522 6487 9456 11359
 	}
 }

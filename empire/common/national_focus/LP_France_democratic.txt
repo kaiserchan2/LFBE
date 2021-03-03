@@ -1,0 +1,996 @@
+focus_tree = {
+	id = FRA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+     
+    default = no
+	
+	continuous_focus_position = { x = 3000 y = 2000 }
+	
+	shared_focus = FRA_reconstitute_CSG
+	shared_focus = FRA_tardieu_scheme
+	shared_focus = FRA_statut_naval_1924
+	shared_focus = FRA_decree_separation
+	shared_focus = FRA_france_world
+	shared_focus = FRA_develop_metropole
+	
+	### PRRS ###
+	
+	focus = {
+		id = FRA_radical_victory
+		icon = GFX_goal_HOL_list_left
+		x = 31
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+		    has_country_flag = radical_victory
+		}
+
+		bypass = {
+		    has_country_flag = radical_victory
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_public_works
+		icon = GFX_goal_generic_production
+		x = 29
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_radical_victory
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_reduce_workweek
+		icon = GFX_goal_constitutional_guarantees
+		x = 27
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_public_works
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_wage_increase
+		icon = GFX_goal_capitalist_system
+		x = 29
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_public_works
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_wealth_tax
+		icon = GFX_goal_bag_of_money
+		x = 25
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_reduce_workweek
+			focus = FRA_wage_increase
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_taxation_increased
+		}
+	}
+	
+	focus = {
+		id = FRA_price_controls
+		icon = GFX_goal_generic_price_controls
+		x = 27
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_reduce_workweek
+			focus = FRA_wage_increase
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_social_housing
+		icon = GFX_goal_generic_construct_public_housing
+		x = 29
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_reduce_workweek
+			focus = FRA_wage_increase
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_reconcile_cgt
+		icon = GFX_focus_HOL_deal_with_left
+		x = 31
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_radical_victory
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_ban_leagues
+		icon = GFX_HOL_crackdown_natpop
+		x = 31
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_reconcile_cgt
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_curtail_monarch
+		icon = GFX_focus_undercut_the_king
+		x = 31
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_ban_leagues
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_monarchy_restrained
+		}
+	}
+	
+	focus = {
+		id = FRA_support_business
+		icon = GFX_focus_generic_concessions
+		x = 33
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_radical_victory
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_small_business_supported
+		}
+	}
+	
+	focus = {
+		id = FRA_separation_church_state
+		icon = GFX_goal_generic_forceful_treaty
+		x = 33
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_support_business
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_abolish_courts
+		icon = GFX_generic_trial
+		x = 35
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_support_business
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_secularize_education
+		icon = GFX_goal_Centralised_Government
+		x = 33
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_separation_church_state
+			focus = FRA_abolish_courts
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_state_schooling
+		icon = GFX_goal_KTG_Bookstack
+		x = 35
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_separation_church_state
+			focus = FRA_abolish_courts
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_expand_facilities
+		icon = GFX_goal_generic_construction
+		x = 37
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_separation_church_state
+			focus = FRA_abolish_courts
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_motto1
+		icon = GFX_goal_socialist_infrastructure
+		x = 31
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_secularize_education
+		}
+		
+		prerequisite = {
+			focus = FRA_state_schooling
+		}
+		
+		prerequisite = {
+			focus = FRA_expand_facilities
+		}
+		
+		prerequisite = {
+			focus = FRA_curtail_monarch
+		}
+		
+		prerequisite = {
+			focus = FRA_social_housing
+		}
+		
+		prerequisite = {
+			focus = FRA_price_controls
+		}
+		
+		prerequisite = {
+			focus = FRA_wealth_tax
+		}
+		
+		available = {
+		    has_government = radical_progressive
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	### ALP ###
+	focus = {
+		id = FRA_liberal_victory
+		icon = GFX_goal_ideology_market_liberal
+		x = 42
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+		    has_country_flag = liberal_victory
+		}
+
+		bypass = {
+		    has_country_flag = liberal_victory
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_repeal_tariffs
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 40
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_liberal_victory
+		}
+		
+		available = {
+		    has_government = market_liberal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_lower_tax
+		icon = GFX_goal_generic_foreign_investments
+		x = 40
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_repeal_tariffs
+		}
+		
+		available = {
+		    has_government = market_liberal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_privatize_companies
+		icon = GFX_goal_manage_industries
+		x = 40
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_lower_tax
+		}
+		
+		available = {
+		    has_government = market_liberal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_encourage_business
+		icon = GFX_goal_gold_up
+		x = 42
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_liberal_victory
+		}
+		
+		available = {
+		    has_government = market_liberal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_union_ban
+		icon = GFX_goal_UK_ban_unions
+		x = 42
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_encourage_business
+		}
+		
+		available = {
+		    has_government = market_liberal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_flexible_system
+		icon = GFX_goal_generic_loans
+		x = 44
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_liberal_victory
+		}
+		
+		available = {
+		    has_government = market_liberal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_university_reform
+		icon = GFX_goal_brain
+		x = 44
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_flexible_system
+		}
+		
+		available = {
+		    has_government = market_liberal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_optimize_bureaucracy
+		icon = GFX_agency
+		x = 44
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_university_reform
+		}
+		
+		available = {
+		    has_government = market_liberal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_motto2
+		icon = GFX_Fight_for_Freedom
+		x = 42
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_privatize_companies
+		}
+		prerequisite = {
+			focus = FRA_union_ban
+		}
+		prerequisite = {
+			focus = FRA_optimize_bureaucracy
+		}
+		
+		available = {
+		    has_government = market_liberal
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	### ALP/PDP ###
+	focus = {
+		id = FRA_reaffirm_balance
+		icon = GFX_goal_generic_government_deals
+		x = 46
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+		    focus = FRA_liberal_victory
+			focus = FRA_democrat_victory
+		}
+		
+		available = {
+		    has_government = market_liberal
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_ensure_education
+		icon = GFX_Catholic_Education
+		x = 46
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+		    focus = FRA_reaffirm_balance
+		}
+		
+		available = {
+		    has_government = market_liberal
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_education_ensured
+		}
+	}
+	
+	focus = {
+		id = FRA_moralist_propaganda
+		icon = GFX_goal_generic_propaganda
+		x = 46
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+		    focus = FRA_ensure_education
+		}
+		
+		available = {
+		    has_government = market_liberal
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_moral_propaganda
+		}
+	}
+	
+	
+	### PDP ###
+	focus = {
+		id = FRA_democrat_victory
+		icon = GFX_goal_ideology_social_conservative
+		x = 50
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+		    has_country_flag = democrat_victory
+		}
+
+		bypass = {
+		    has_country_flag = democrat_victory
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_class_cooperation
+		icon = GFX_goal_generic_national_unity
+		x = 48
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_democrat_victory
+		}
+		
+		available = {
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_christian_union
+		icon = GFX_goal_dcgb
+		x = 48
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_class_cooperation
+		}
+		
+		available = {
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_unions_instituted
+		}
+	}
+	
+	focus = {
+		id = FRA_catholic_program
+		icon = GFX_goal_generic_consumer_goods
+		x = 48
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_christian_union
+		}
+		
+		available = {
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_catholic_ethics
+		}
+	}
+	
+	focus = {
+		id = FRA_family_allowance
+		icon = GFX_goal_generic_improve_relations
+		x = 50
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_democrat_victory
+		}
+		
+		available = {
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_family_vote
+		icon = GFX_goal_generic_elections
+		x = 50
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_family_allowance
+		}
+		
+		available = {
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_empower_councils
+		icon = GFX_focus_generic_self_management
+		x = 52
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_democrat_victory
+		}
+		
+		available = {
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_councils_empowered
+		}
+	}
+	
+	focus = {
+		id = FRA_healthcare
+		icon = GFX_healthcare
+		x = 52
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_empower_councils
+		}
+		
+		available = {
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_farmer_subsidies
+		icon = GFX_goal_agricultural_aid
+		x = 52
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_healthcare
+		}
+		
+		available = {
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_motto3
+		icon = GFX_Catholic_Construction
+		x = 50
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_catholic_program
+		}
+		prerequisite = {
+			focus = FRA_family_vote
+		}
+		prerequisite = {
+			focus = FRA_farmer_subsidies
+		}
+		
+		available = {
+		    has_government = social_conservative
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+}

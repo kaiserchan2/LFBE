@@ -20,19 +20,19 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_despotist
 	last_election = "1932.5.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-    vanguardist = 8
-    social_liberal = 35
-	market_liberal = 7
-	social_conservative = 13
-    national_conservative = 27
-	social_nationalist = 10
+    vanguardist = 7
+    radical_progressive = 27
+	market_liberal = 14
+	social_conservative = 12
+    authoritarian_despotist = 31
+	social_nationalist = 9
 }
 
 create_country_leader = {
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_RUPPRECHT_I_DESC"
 	picture = "Portrait_Bavaria_Rupprecht_I.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }
 
@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_RUPPRECHT_I_DESC"
 	picture = "Portrait_Bavaria_Rupprecht_I.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }
 

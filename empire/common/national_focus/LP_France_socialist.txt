@@ -1,0 +1,432 @@
+focus_tree = {
+	id = FRA_socialist_focus
+	
+	country = {
+		factor = 0
+	}
+	
+	 focus = {
+		id = FRA_fourth_revolution
+		icon = GFX_goal_HOL_fires_of_revolution
+		x = 9
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			has_country_flag = fourth_revolution
+		}
+
+		bypass = {
+			has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_red_guard
+		icon = GFX_goal_HOL_military_union
+		x = 8
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_fourth_revolution
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_ban_press
+		icon = GFX_goal_generic_media_controls
+		x = 10
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_fourth_revolution
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_anticlerical_campaign
+		icon = GFX_goal_PAP_crusade
+		x = 7
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_red_guard
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_democratize_army
+		icon = GFX_goal_intergrate_the_militia
+		x = 9
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_red_guard
+			focus = FRA_ban_press
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_comittee_of_public_safety
+		icon = GFX_goal_secret_agents
+		x = 11
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_ban_press
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_factory_councils
+		icon = GFX_goal_factory_complex
+		x = 7
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_anticlerical_campaign
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_expropriate_rich
+		icon = GFX_goal_generic_seize_money
+		x = 9
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_democratize_army
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_banking_system
+		icon = GFX_focus_empty_coffers
+		x = 11
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_comittee_of_public_safety
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_begin_collectivization
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 8
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_factory_councils
+		}
+		prerequisite = {
+			focus = FRA_expropriate_rich
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_supreme_council
+		icon = GFX_goal_state_economy
+		x = 10
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_banking_system
+		}
+		prerequisite = {
+			focus = FRA_expropriate_rich
+		}
+		
+		available = {
+		    has_country_flag = fourth_revolution
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_first_congress
+		icon = GFX_goal_commune_politics
+		x = 9
+		y = 5
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_begin_collectivization
+		}
+		prerequisite = {
+			focus = FRA_supreme_council
+		}
+		
+		available = {
+		    has_country_flag = first_congress
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+    focus = {
+		id = FRA_socialists
+		icon = GFX_goal_ideology_radical_socialist
+		x = 15
+		y = 6
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_first_congress
+		}
+		
+		available = {
+		    has_country_flag = socialist_victory
+		}
+		
+		completion_reward = {
+			
+		}
+	}	
+	
+	focus = {
+		id = FRA_union_autonomy
+		icon = GFX_goal_tblra_union_agreement
+		x = 14
+		y = 7
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_socialists
+		}
+		
+		available = {
+		    has_government = democratic_socialist
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_unions_autonomy
+		}
+	}	
+	
+	focus = {
+		id = FRA_labour_law
+		icon = GFX_goal_workers_rights
+		x = 14
+		y = 8
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_union_autonomy
+		}
+		
+		available = {
+		    has_government = democratic_socialist
+		}
+		
+		completion_reward = {
+			add_ideas = FRA_labor_laws
+		}
+	}
+	
+	focus = {
+		id = FRA_unemployment_benefit
+		icon = GFX_goal_generic_controlled_board
+		x = 14
+		y = 9
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_labour_law
+		}
+		
+		available = {
+		    has_government = democratic_socialist
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FRA_nationalize_industries
+		icon = GFX_goal_generic_takeover_industries
+		x = 16
+		y = 7
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_socialists
+		}
+		
+		available = {
+		    has_government = democratic_socialist
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = FRA_decentralized_plan
+		icon = GFX_goal_generic_takeover_industries
+		x = 16
+		y = 8
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = FRA_nationalize_industries
+		}
+		
+		available = {
+		    has_government = democratic_socialist
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+}

@@ -10,21 +10,21 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = national_conservative
-	last_election = "1933.9.8"
+	ruling_party = authoritarian_despotist
+	last_election = "1932.9.22"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	national_conservative = 100
+	authoritarian_despotist = 100
 }
 
 create_country_leader = {
-	name = "Ghazi I"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "GFX_portrait_iraq_ghazi.dds"
+	name = "Abdulaziz II"
+	desc = "POLITICS_ABDULAZIZ_II_DESC"
+	picture = "Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }

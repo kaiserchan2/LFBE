@@ -9,22 +9,22 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = national_conservative
-	last_election = "1919.2.28"
+	ruling_party = authoritarian_despotist
+	last_election = "1929.10.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	national_conservative = 100
+	authoritarian_despotist = 100
 }
 
 create_country_leader = {
-	name = "Amanullah Khan"
-	desc = "POLITICS_AMANULLAH_KHAN_DESC"
-	picture = "Portrait_Afghanistan_Amanullah_Khan.dds"
+	name = "Mohammed Nadir Shah"
+	desc = "POLITICS_MOHAMMED_NADIR_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Nadir.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }
 

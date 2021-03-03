@@ -1661,7 +1661,7 @@ focus_tree = {
 			OR = {
 				has_government = vanguardist
 				has_government = democratic_socialist
-				has_government = syndicalist
+				has_government = anarcho_collectivist
 				has_government = integralist 
 			    has_government = social_nationalist
 			}
@@ -1740,7 +1740,7 @@ focus_tree = {
 					OR = {
 						has_government = vanguardist
 						has_government = democratic_socialist
-				        has_government = syndicalist
+				        has_government = anarcho_collectivist
 					}
 				}
 			}
@@ -1761,7 +1761,7 @@ focus_tree = {
 					is_major = yes
 					has_government = vanguardist
 					has_government = democratic_socialist
-				    has_government = syndicalist
+				    has_government = anarcho_collectivist
 				}
 			}			
 			modifier = {
@@ -1770,16 +1770,14 @@ focus_tree = {
 					is_historical_focus_on = yes
 					NOT = { has_government = vanguardist
 					        has_government = democratic_socialist
-				            has_government = syndicalist
+				            has_government = anarcho_collectivist
 					}
 				}
 			}
 		}
 
 		completion_reward = {
-			add_timed_idea = {
-			
-			}
+		
 		}
 	}	
 
@@ -1790,10 +1788,10 @@ focus_tree = {
 		mutually_exclusive = { focus = collectivist_ethos }
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = radical_progressive
 				has_government = social_conservative
 				has_government = market_liberal
-				has_government = national_conservative
+				has_government = authoritarian_despotist
 			}
 		}
 		x = 1
@@ -1813,7 +1811,7 @@ focus_tree = {
 					OR = {
 						has_government = vanguardist
 						has_government = democratic_socialist
-				        has_government = syndicalist
+				        has_government = anarcho_collectivist
 						has_government = integralist
 						has_government = social_nationalist
 					}

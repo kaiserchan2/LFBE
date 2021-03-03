@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = IBR
+		owner = SPA
 		victory_points = {
 			758 3
 		}
@@ -20,7 +20,7 @@ state={
 			arms_factory = 1
 			air_base = 2
 		}
-		add_core_of = IBR
+		add_core_of = SPA
 	}
 
 	provinces={

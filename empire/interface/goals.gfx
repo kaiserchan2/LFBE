@@ -87,8 +87,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_ideology_national_populist.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_paternal_autocrat"
-		texturefile = "gfx/interface/goals/goal_ideology_paternal_autocrat.tga"
+		name = "GFX_goal_ideology_authoritarian_despotist"
+		texturefile = "gfx/interface/goals/goal_ideology_authoritarian_despotist.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_ideology_authoritarian_democrat"
@@ -103,20 +103,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_ideology_market_liberal.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_social_liberal"
-		texturefile = "gfx/interface/goals/goal_ideology_social_liberal.tga"
+		name = "GFX_goal_ideology_radical_progressive"
+		texturefile = "gfx/interface/goals/goal_ideology_radical_progressive.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_social_democrat"
-		texturefile = "gfx/interface/goals/goal_ideology_social_democrat.tga"
+		name = "GFX_goal_ideology_democratic_socialist"
+		texturefile = "gfx/interface/goals/goal_ideology_democratic_socialist.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_ideology_radical_socialist"
 		texturefile = "gfx/interface/goals/goal_ideology_radical_socialist.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_syndicalist"
-		texturefile = "gfx/interface/goals/goal_ideology_syndicalist.tga"
+		name = "GFX_goal_ideology_anarcho_collectivist"
+		texturefile = "gfx/interface/goals/goal_ideology_anarcho_collectivist.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_ideology_totalist"
@@ -651,8 +651,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_syndicalism.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_syndicalist_industry"
-		texturefile = "gfx/interface/goals/goal_syndicalist_industry.tga"
+		name = "GFX_goal_anarcho_collectivist_industry"
+		texturefile = "gfx/interface/goals/goal_anarcho_collectivist_industry.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_totalism"
@@ -1418,8 +1418,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_AST_upgrade_reserves.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_AST_syndicalist"
-		texturefile = "gfx/interface/goals/goal_AST_syndicalist.tga"
+		name = "GFX_goal_AST_anarcho_collectivist"
+		texturefile = "gfx/interface/goals/goal_AST_anarcho_collectivist.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_AST_monarch_officers"
@@ -1544,8 +1544,8 @@ spriteTypes = {
 
 	### Belarus ###
 	SpriteType = {
-		name = "GFX_goal_syndicalist_lenin"
-		texturefile = "gfx/interface/goals/goal_syndicalist_lenin.tga"
+		name = "GFX_goal_anarcho_collectivist_lenin"
+		texturefile = "gfx/interface/goals/goal_anarcho_collectivist_lenin.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_orthodox_state"
@@ -1730,7 +1730,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/BRA_brazilian_syndicalism.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_syndicalist_congress"
+		name = "GFX_goal_anarcho_collectivist_congress"
 		texturefile = "gfx/interface/goals/BRA_congress.tga"
 	}
 	SpriteType = {
@@ -2051,8 +2051,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/COS_Costa_Rica.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_COS_German_Bailout"
-		texturefile = "gfx/interface/goals/COS_German_Bailout.tga"
+		name = "GFX_goal_German_Bailout"
+		texturefile = "gfx/interface/goals/German_Bailout.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_COS_Peace"
@@ -2584,7 +2584,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_GEO_wine"
-		texturefile = "gfx/interface/goals/goal_GEO_wine.tga"
+		texturefile = "gfx/interface/goals/GEO_wine.tga"
 	}
 
 	### Galicia and Lodomeria ###
@@ -3070,9 +3070,9 @@ spriteTypes = {
 		name = "GFX_ITA_masquerade"
 		texturefile = "gfx/interface/goals/goal_ITA_masquerade.tga"
 	}
-	SpriteType = {# Syndicalist Unite
-		name = "GFX_ITA_syndicalist_unite"
-		texturefile = "gfx/interface/goals/goal_ITA_syndicalist_unite.tga"
+	SpriteType = {# anarcho_collectivist Unite
+		name = "GFX_ITA_anarcho_collectivist_unite"
+		texturefile = "gfx/interface/goals/goal_ITA_anarcho_collectivist_unite.tga"
 	}
 	SpriteType = {# Urban
 		name = "GFX_ITA_urban"
@@ -3581,8 +3581,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_LIB_africa_star.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_LIB_Syndicalist_Rally"
-		texturefile = "gfx/interface/goals/goal_LIB_Syndicalist_Rally.tga"
+		name = "GFX_goal_LIB_anarcho_collectivist_Rally"
+		texturefile = "gfx/interface/goals/goal_LIB_anarcho_collectivist_Rally.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_LIB_Peculiar_Institutions"
@@ -3811,9 +3811,9 @@ spriteTypes = {
 		name = "GFX_NATFRA_flags3"
 		texturefile = "gfx/interface/goals/NATFRA_flags3.tga"
 	}
-	SpriteType = { # France First
-		name = "GFX_france_hegemony"
-		texturefile = "gfx/interface/goals/france_hegemony.tga"
+	SpriteType = {
+		name = "GFX_NATFRA_francefirst"
+		texturefile = "gfx/interface/goals/NATFRA_francefirst.tga"
 	}
 	SpriteType = { # Friend with Poland
 		name = "GFX_NATFRA_friendwithpoland"
@@ -4082,7 +4082,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_HOL_dutch_pannationalism.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_HOL_fires_of_revolution_faux"
+		name = "GFX_goal_HOL_fires_of_revolution"
 		texturefile = "gfx/interface/goals/goal_HOL_fires_of_revolution.tga"
 	}
 	SpriteType = {
@@ -4192,8 +4192,8 @@ spriteTypes = {
 
 	### Nicaragua ###
 	SpriteType = {
-		name = "GFX_NIC_Cows"
-		texturefile = "gfx/interface/goals/NIC_Cows.tga"
+		name = "GFX_Cows"
+		texturefile = "gfx/interface/goals/Cows.tga"
 	}
 
 	### Nordic Federation ###
@@ -4252,8 +4252,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_NOR_DNL.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_NOR_syndicalist"
-		texturefile = "gfx/interface/goals/goal_NOR_syndicalist.tga"
+		name = "GFX_goal_NOR_anarcho_collectivist"
+		texturefile = "gfx/interface/goals/goal_NOR_anarcho_collectivist.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_NOR_secret_police"
@@ -5624,8 +5624,8 @@ spriteTypes = {
 
 	### TNO Icons from the Shared Repository. Credit goes to the TNO art team ###
 	SpriteType = {
-		name = "GFX_goal_syndicalist_workers"
-		texturefile = "gfx/interface/goals/goal_syndicalist_workers.tga"
+		name = "GFX_goal_anarcho_collectivist_workers"
+		texturefile = "gfx/interface/goals/goal_anarcho_collectivist_workers.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_workers_rights"
@@ -5641,7 +5641,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_agricultural_aid"
-		texturefile = "gfx/interface/goals/goal_agricultural_aid.tga"
+		texturefile = "gfx/interface/goals/agricultural_aid.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_Workers_Paradise"
@@ -6048,7 +6048,91 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_generic_navy_doctrines_tactics.tga"
 	}
 	SpriteType = {
-		name = "GFX_focus_reach_out_to_france"
-		texturefile = "gfx/interface/goals/focus_reach_out_to_france.dds"
+		name = "GFX_goal_generic_construct_mil_factory"
+		texturefile = "gfx/interface/goals/goal_generic_construct_mil_factory.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_production"
+		texturefile = "gfx/interface/goals/goal_generic_production.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_construction"
+		texturefile = "gfx/interface/goals/goal_generic_construction.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_mex_triumph_over_the_cristeros"
+		texturefile = "gfx/interface/goals/focus_mex_triumph_over_the_cristeros.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_air_fighter"
+		texturefile = "gfx/interface/goals/goal_generic_air_fighter.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_air_bomber"
+		texturefile = "gfx/interface/goals/goal_generic_air_bomber.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_air_fighter2"
+		texturefile = "gfx/interface/goals/goal_generic_air_fighter2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_forceful_treaty"
+		texturefile = "gfx/interface/goals/goal_generic_forceful_treaty.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_national_unity"
+		texturefile = "gfx/interface/goals/goal_generic_national_unity.tga"
+	}
+	SpriteType = {
+		name = "GFX_Fight_for_Freedom"
+		texturefile = "gfx/interface/goals/Fight_for_Freedom.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_prc_agrarian_socialism"
+		texturefile = "gfx/interface/goals/focus_prc_agrarian_socialism.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_positive_trade_relations"
+		texturefile = "gfx/interface/goals/goal_generic_positive_trade_relations.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_privatisation"
+		texturefile = "gfx/interface/goals/focus_privatisation.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_trial"
+		texturefile = "gfx/interface/goals/generic_trial.tga"
+	}
+	SpriteType = {
+		name = "GFX_healthcare"
+		texturefile = "gfx/interface/goals/healthcare.tga"
+	}
+	SpriteType = {
+		name = "GFX_agency"
+		texturefile = "gfx/interface/goals/agency.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_alliance"
+		texturefile = "gfx/interface/goals/goal_generic_alliance.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_electricity"
+		texturefile = "gfx/interface/goals/generic_electricity.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_railway_construction"
+		texturefile = "gfx/interface/goals/generic_railway_construction.tga"
+	}
+	SpriteType = {
+		name = "GFX_silk"
+		texturefile = "gfx/interface/goals/silk.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_steel"
+		texturefile = "gfx/interface/goals/focus_generic_steel.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_shipyard"
+		texturefile = "gfx/interface/goals/generic_shipyard.tga"
 	}
 }

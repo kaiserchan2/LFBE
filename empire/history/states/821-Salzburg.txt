@@ -1,9 +1,9 @@
 state={
 	id=821
 	name="STATE_821"
-	manpower = 484060
+	manpower = 414804
 
-	state_category = large_town
+	state_category = rural
 
 	history={
 		owner = AUS
@@ -18,6 +18,6 @@ state={
 	}
 
 	provinces={
-		688 3675 11634 707
+		688 3675 11634
 	}
 }

@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = BEA
+		add_core_of = BEA
 		victory_points = {
 			5199 1
 		}

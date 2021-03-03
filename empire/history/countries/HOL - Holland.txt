@@ -35,21 +35,13 @@ set_autonomy = {
 
 set_politics = {
 	ruling_party = social_conservative
-	last_election = "1933.4.26"
+	last_election = "1929.7.3"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-    syndicalist = 5
-	vanguardist = 5
-	democratic_socialist = 6
-	social_liberal = 23
-	market_liberal = 7
-	social_conservative = 29
-	national_conservative = 11
-	integralist = 10
-	social_nationalist = 4
+	social_conservative = 100
 }
 
 set_convoys = 200
@@ -59,7 +51,16 @@ create_country_leader = {
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Netherlands_Wilhelmina.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = radical_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "Portrait_Netherlands_Wilhelmina.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
 	traits = {}
 }
 
@@ -77,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "Portrait_Netherlands_Wilhelmina.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }
 
@@ -87,51 +88,6 @@ create_country_leader = {
 	picture = "Portrait_Netherlands_Wilhelmina.dds"
 	expire = "1965.1.1"
 	ideology = integralist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Johan Willem Albarda"
-	desc = "POLITICS_JOHAN_ALBARDA_DESC"
-	picture = "Portrait_Netherlands_Johan_Albarda.dds"
-	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "Portrait_Netherlands_Wilhelmina.dds"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Henk Sneevliet"
-	desc = "POLITICS_HENK_SNEEVLIET_DESC"
-	picture = "Portrait_Netherlands_Henk_Sneevliet.dds"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Louis de Visser"
-	desc = "POLITICS_LOU_DE_VISSER_DESC"
-	picture = "Portrait_Netherlands_Louis_de_Visser.dds"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Anton Mussert"
-	desc = "POLITICS_ANTON_MUSSERT_DESC"
-	picture = "Portrait_Netherlands_Anton_Mussert.dds"
-	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
 	traits = {}
 }
 

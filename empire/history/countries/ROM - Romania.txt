@@ -28,36 +28,12 @@ set_convoys = 10
 
 set_politics = {
 	ruling_party = social_conservative
-	last_election = "1933.12.20"
+	last_election = "1933.7.17"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-    vanguardist = 5
-	democratic_socialist = 8
-	social_liberal = 6
-	market_liberal = 6
-	social_conservative = 52
-	national_conservative = 14
-	integralist = 9
-}
-
-create_country_leader = {
-	name = "Gheorghe Gheorghiu-Dej"
-	desc = "POLITICS_GHEORGHE_GHEORGHIU-DEJ_DESC"
-	picture = "Portrait_Romania_Gheorghe_Gheorghiu-Dej.dds"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Constantin Titel Petrescu"
-	desc = "POLITICS_CONSTANTIN_PETRESCU_DESC"
-	picture = "Portrait_Romania_Constantin_Petrescu.dds"
-	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
-	traits = {}
+	social_conservative = 100
 }
 
 create_country_leader = {
@@ -65,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_CAROL_II_DESC"
 	picture = "Portrait_Romania_Carol_II.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }
 
@@ -92,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_CAROL_II_DESC"
 	picture = "Portrait_Romania_Carol_II.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }
 

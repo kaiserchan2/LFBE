@@ -1,4 +1,4 @@
-name="L'Empire Glorieux: Dawn of the Belle Époque"
+name="La Patrie: Sunset of the Belle Époque"
 path="mod/empire/"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"
@@ -34,4 +34,4 @@ tags={
 	"Balance"
 	"Ideologies"
 }
-version="1.9"
+version="1.9.2"

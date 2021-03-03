@@ -43,6 +43,10 @@ set_technology = {
 
 set_convoys = 50
 
+create_faction = Bratislava_Accord
+add_to_faction = CZE
+add_to_faction = BUL
+
 set_autonomy = {
 	target = POL
 	autonomous_state = autonomy_puppet
@@ -53,19 +57,21 @@ set_autonomy = {
 }
 
 set_politics = {
-	ruling_party = market_liberal
-	last_election = "1934.7.1"
-	election_frequency = 60
+	ruling_party = social_conservative
+	last_election = "1930.6.26"
+	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-    syndicalist = 3
-    vanguardist = 4
-    democratic_socialist = 9
-    social_liberal = 27
-	market_liberal = 29
-	national_conservative = 18
-	social_nationalist = 10
+    anarcho_collectivist = 4
+    vanguardist = 2
+	social_nationalist = 3
+    democratic_socialist = 6
+    radical_progressive = 21
+	market_liberal = 13
+	social_conservative = 27
+	authoritarian_despotist = 14
+	integralist = 10
 }
 
 create_country_leader = {
@@ -73,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDER_SHLIAPNIKOV_DESC"
 	picture = "Portrait_Russia_Alexander_Shliapnikov.dds"
 	expire = "1953.3.1"
-	ideology = syndicalist_subtype
+	ideology = anarcho_collectivist_subtype
 	traits = {}
 }
 
@@ -87,6 +93,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Yuri Shirinsky-Shikhmatov"
+	desc = "POLITICS_YURI_SHI_SHI_DESC"
+	picture = "Portrait_Russia_Yuri_Shi_Shi.dds"
+	expire = "1953.3.1"
+	ideology = social_nationalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
 	name = "Lev Trotsky"
 	desc = "POLITICS_LEV_TROTSKY_DESC"
 	picture = "Portrait_Russia_Lev_Trotsky.dds"
@@ -96,27 +111,18 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Michael II"
-	desc = "POLITICS_MICHAEL_II_DESC"
-	picture = "Portrait_Russia_Michael_II.dds"
+	name = "Mikhail II"
+	desc = "POLITICS_MIKHAIL_II_DESC"
+	picture = "Portrait_Russia_Mikhail_II.dds"
 	expire = "1953.3.1"
-	ideology = social_liberal_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }
 
 create_country_leader = {
 	name = "Mikhail II"
-	desc = "POLITICS_MICHAEL_II_DESC"
-	picture = "Portrait_Russia_Michael_II.dds"
-	expire = "1953.3.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Mikhail II"
-	desc = "POLITICS_MICHAEL_II_DESC"
-	picture = "Portrait_Russia_Michael_II.dds"
+	desc = "POLITICS_MIKHAIL_II_DESC"
+	picture = "Portrait_Russia_Mikhail_II.dds"
 	expire = "1953.3.1"
 	ideology = market_liberal_subtype
 	traits = {}
@@ -124,27 +130,27 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mikhail II"
-	desc = "POLITICS_MICHAEL_II_DESC"
-	picture = "Portrait_Russia_Michael_II.dds"
+	desc = "POLITICS_MIKHAIL_II_DESC"
+	picture = "Portrait_Russia_Mikhail_II.dds"
 	expire = "1953.3.1"
-	ideology = national_conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
 	name = "Mikhail II"
-	desc = "POLITICS_MICHAEL_II_DESC"
-	picture = "Portrait_Russia_Michael_II.dds"
+	desc = "POLITICS_MIKHAIL_II_DESC"
+	picture = "Portrait_Russia_Mikhail_II.dds"
 	expire = "1953.3.1"
-	ideology = integralist_subtype
+	ideology = authoritarian_despotist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Anastasy Vonsyatsky"
-	desc = "POLITICS_ANASTASY_VONSYATSKY_DESC"
-	picture = "Portrait_Russia_Anastasy_Vonsyatsky.dds"
+	name = "Mikhail II"
+	desc = "POLITICS_MIKHAIL_II_DESC"
+	picture = "Portrait_Russia_Mikhail_II.dds"
 	expire = "1953.3.1"
-	ideology = social_nationalist_subtype
+	ideology = integralist_subtype
 	traits = {}
 }

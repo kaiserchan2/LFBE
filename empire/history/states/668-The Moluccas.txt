@@ -7,8 +7,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = INS
-		add_core_of = INS
+		owner = DEI
+		add_core_of = DEI
 		buildings = {
 			infrastructure = 3
 			1574 = {

@@ -10,15 +10,12 @@ state={
 	state_category = city
 
 	history={
-		owner = PRG
+		owner = SRG
 		victory_points = {
 			3326 7 
 		}
 		victory_points = {
 			6377 12 
-		}
-		victory_points = {
-			9375 3
 		}
 		buildings = {
 			infrastructure = 7
@@ -30,7 +27,7 @@ state={
 			}
 
 		}
-		add_core_of = PRG
+		add_core_of = SRG
 	}
 
 	provinces={

@@ -6,21 +6,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = market_liberal
-	last_election = "1936.1.1"
+	ruling_party = social_conservative
+	last_election = "1928.1.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	market_liberal = 100
+	social_conservative = 100
 }
 
 create_country_leader = {
-	name = "Tang Jiyao"
-	desc = "POLITICS_TANG_JIYAO_DESC"
-	picture = "Portrait_Yunnan_Tang_Jiyao.dds"
+	name = "Long Yun"
+	desc = "POLITICS_LONG_YUN_DESC"
+	picture = "Portrait_Yunnan_Long_Yun.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
