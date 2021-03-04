@@ -2,17 +2,20 @@
 state={
 	id=52
 	name="STATE_52"
-	manpower = 2679413
+	manpower = 5090246
 	resources={
 		aluminium=18 # was: 30
 	}
 	
-	state_category = city
+	state_category = large_city
 
 	history={
 		owner = SDB
 		victory_points = {
 			692 40
+		}
+		victory_points = {
+			708 5
 		}
 		buildings = {
 			infrastructure = 7
@@ -24,6 +27,6 @@ state={
 	}
 
 	provinces={
-		692 3688 3705 6693 9652 11620 11653 707
+		692 3688 3705 6693 9652 11620 11653 707 708 9666 11638 6540
 	}
 }
