@@ -1,0 +1,28 @@
+
+state={
+	id=153
+	name="STATE_153"
+	manpower = 969883
+	
+	state_category = town
+
+	history={
+		owner = SGU
+		victory_points = {
+			673 3 
+		}
+		victory_points = {
+			9630 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = SGU
+	}
+
+	provinces={
+		656 671 673 9633 9636 11618 6675 9630 11615 
+	}
+}

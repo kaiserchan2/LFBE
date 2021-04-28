@@ -1,0 +1,21 @@
+state={
+	id=762
+	name="STATE_762"
+	provinces={
+		653 9679 6690 9648 9646 3684 9650 6691
+	}
+	manpower=969580
+	state_category = town
+	history={
+		owner = SGU
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			9648 5 
+		}
+		add_core_of = SGU
+	}
+}

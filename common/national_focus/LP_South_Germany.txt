@@ -1,0 +1,14 @@
+focus_tree = {
+	id = south_germany_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SGU
+		}
+	}
+	
+	default = no
+}

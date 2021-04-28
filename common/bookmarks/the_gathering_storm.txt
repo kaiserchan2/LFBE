@@ -1,0 +1,174 @@
+bookmarks = {
+	bookmark = {
+		name = "LP_SCENARIO_NAME"
+		desc = "LP_SCENARIO_DESC"
+		date = 1933.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "FRA"
+		default = yes
+
+        "USA" = {
+			history = "USA_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_conservative
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"ENG" = {
+			history = "ENG_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = anarcho_collectivist
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+		
+		"FRA" = {
+			history = "FRA_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = market_liberal
+			ideas = {
+				
+			}
+
+			focuses = {
+			    FRA_radical_victory
+				FRA_maintain_hegemony
+			}
+		}
+		
+		"ITA" = {
+			history = "ITA_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_conservative
+			ideas = {
+			    
+			}
+
+			focuses = {
+				
+			}
+		}
+		
+		"RUS" = {
+			history = "RUS_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_conservative
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		"SAF" = {
+			history = "SAF_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_conservative
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+		
+		"JAP" = {
+			history = "JAP_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = vanguardist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---" = {
+			history = "OTHER_END_OF_BEAUTIFUL_EPOCH_DESC"
+		}
+
+		"GER" = {
+			minor = yes
+			history = "GER_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_conservative
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SRG" = {
+			minor = yes
+			history = "SRG_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = vanguardist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"PRS" = {
+			minor = yes
+			history = "PRS_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = authoritarian_despotist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SGU" = {
+			minor = yes
+			history = "SGU_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = social_conservative
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SWI" = {
+			minor = yes
+			history = "SWI_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = radical_progressive
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"AUS" = {
+			minor = yes
+			history = "AUS_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = authoritarian_despotist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

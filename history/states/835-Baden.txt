@@ -1,0 +1,30 @@
+state={
+	id=835
+	name="STATE_835"
+	manpower = 3179855
+	
+	state_category = large_city
+
+	history={
+		owner = SGU
+		victory_points = {
+			6568 5
+		}
+		victory_points = {
+			3530 7
+		}
+		victory_points = {
+			11640 5
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = SGU
+	}
+
+	provinces={
+		6712 3692 3530 6542 6581 6568 11640 3679 6934 13126
+	}
+}

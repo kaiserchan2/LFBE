@@ -1,0 +1,22 @@
+state={
+	id=820
+	name="STATE_820"
+	manpower = 263830
+
+	state_category = town
+
+	history={
+		owner = SGU
+		buildings = {
+			infrastructure = 7
+		}
+		victory_points = {
+			3700 1
+		}
+		add_core_of = SGU 
+	}
+
+	provinces={
+		3700 9661 11630
+	}
+}
