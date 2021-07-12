@@ -18,21 +18,21 @@ set_technology = {
 set_convoys = 15
 
 set_politics = {
-	ruling_party = authoritarian_despotist
-	last_election = "1926.2.25"
+	ruling_party = radical_progressive
+	last_election = "1932.6.24"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	authoritarian_despotist = 100
+	radical_progressive = 100
 }
 
 create_country_leader = {
-	name = "Rama VII"
-	desc = "POLITICS_RAMA_VII_DESC"
-	picture = "Portrait_Siam_Rama_VII.dds"
+	name = "Pridi Banomyong"
+	desc = "POLITICS_PRIDI_BANOMYONG_DESC"
+	picture = "Portrait_Siam_Pridi_Banomyong.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = radical_progressive_subtype
 	traits = {}
 }

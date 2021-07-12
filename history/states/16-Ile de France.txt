@@ -2,7 +2,7 @@
 state={
 	id=16
 	name="STATE_16"
-	manpower = 7607298
+	manpower = 6785913
 	
 	state_category = megalopolis
 	
@@ -14,10 +14,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 8
-			arms_factory = 3
+			arms_factory = 4
 			industrial_complex = 4
 			anti_air_building = 3
-			air_base = 10
+			air_base = 5
 		}
 		add_core_of = FRA
 	}

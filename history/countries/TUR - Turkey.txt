@@ -1,4 +1,4 @@
-﻿capital = 49
+﻿capital = 346
 
 oob = "TUR_1936"
 if = {
@@ -29,25 +29,64 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = vanguardist
+	ruling_party = market_liberal
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	vanguardist = 100
+    radical_progressive = 35
+	market_liberal = 37
+	social_conservative = 14
+	authoritarian_paternalist = 14
 }
 
 set_convoys = 20
 set_stability = 0.55
 
 create_country_leader = {
-	name = "Mustafa Subhi"
-	desc = "POLITICS_MUSTAFA SUBHI_DESC"
-	picture = "Portrait_Turkey_Mustafa_Subhi.dds"
+	name = "II. Abdülmecid"
+	desc = "POLITICS_ABDULMEJID_II_DESC"
+	picture = "Portrait_Turkey_Abdulmejid_II.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_subtype
+	ideology = radical_progressive_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "II. Abdülmecid"
+	desc = "POLITICS_ABDULMEJID_II_DESC"
+	picture = "Portrait_Turkey_Abdulmejid_II.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "II. Abdülmecid"
+	desc = "POLITICS_ABDULMEJID_II_DESC"
+	picture = "Portrait_Turkey_Abdulmejid_II.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "II. Abdülmecid"
+	desc = "POLITICS_ABDULMEJID_II_DESC"
+	picture = "Portrait_Turkey_Abdulmejid_II.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_paternalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "II. Abdülmecid"
+	desc = "POLITICS_ABDULMEJID_II_DESC"
+	picture = "Portrait_Turkey_Abdulmejid_II.dds"
+	expire = "1965.1.1"
+	ideology = integralist_subtype
 	traits = {}
 }
 

@@ -112,7 +112,7 @@ set_popularities = {
 	radical_progressive = 0
 	market_liberal = 0
 	social_conservative = 0
-	authoritarian_despotist = 0
+	authoritarian_paternalist = 0
 	integralist = 0
 }
 

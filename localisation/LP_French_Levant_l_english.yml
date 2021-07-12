@@ -1,0 +1,32 @@
+﻿l_english:
+# Parties #
+
+
+# Country names #
+FLE_anarcho_collectivist:0 "Levantine Communal Federation"
+FLE_anarcho_collectivist_DEF:0 "the Levantine Communal Federation"
+FLE_vanguardist:0 "Levantine Communal Federation"
+FLE_vanguardist_DEF:0 "the Levantine Communal Federation"
+FLE_social_nationalist:0 "Levantine Communal Federation"
+FLE_social_nationalist_DEF:0 "the Levantine Communal Federation"
+FLE_democratic_socialist:0 "Levantine Communal Federation"
+FLE_democratic_socialist_DEF:0 "the Levantine Communal Federation"
+FLE_radical_progressive:0 "Levantine Federation"
+FLE_radical_progressive_DEF:0 "the Levantine Federation"
+FLE_market_liberal:0 "Levantine Federation"
+FLE_market_liberal_DEF:0 "the Levantine Federation"
+FLE_social_conservative:0 "Levantine Federation"
+FLE_social_conservative_DEF:0 "the Levantine Federation"
+FLE_authoritarian_paternalist:0 "Levantine Federation"
+FLE_authoritarian_paternalist_DEF:0 "the Levantine Federation"
+FLE_integralist:0 "Levantine Federation"
+FLE_integralist_DEF:0 "the Levantine Federation"
+FLE_anarcho_collectivist_ADJ:0 "Levantine"
+FLE_vanguardist_ADJ:0 "Levantine"
+FLE_social_nationalist_ADJ:0 "Levantine"
+FLE_democratic_socialist_ADJ:0 "Levantine"
+FLE_radical_progressive_ADJ:0 "Levantine"
+FLE_market_liberal_ADJ:0 "Levantine"
+FLE_social_conservative_ADJ:0 "Levantine"
+FLE_authoritarian_paternalist_ADJ:0 "Levantine"
+FLE_integralist_ADJ:0 "Levantine"

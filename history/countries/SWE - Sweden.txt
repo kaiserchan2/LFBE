@@ -77,7 +77,7 @@ create_country_leader = {
 	desc = "POLITICS_GUSTAF_V_DESC"
 	picture = "Portrait_Sweden_Gustaf_V.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

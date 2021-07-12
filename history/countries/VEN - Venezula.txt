@@ -14,13 +14,13 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 10
 set_politics = {
-	ruling_party = authoritarian_despotist
+	ruling_party = authoritarian_paternalist
 	last_election = "1931.6.13"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_despotist = 100
+	authoritarian_paternalist = 100
 }
 
 create_country_leader = {
@@ -28,6 +28,6 @@ create_country_leader = {
 	desc = "POLITICS_JUAN_GOMEZ_DESC"
 	picture = "Portrait_Venezuela_Juan_Gomez.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }

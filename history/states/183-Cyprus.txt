@@ -10,8 +10,7 @@ state= {
 
 	history=
 	{
-		owner = TUR
-		add_core_of = TUR
+		owner = FLE
 		victory_points = {
 			11984 5
 		}
@@ -25,7 +24,7 @@ state= {
 				naval_base = 2
 			}
 		}
-        set_demilitarized_zone = yes
+	    add_core_of = FLE
 	}
 	provinces= { 7193 11984 }
 }

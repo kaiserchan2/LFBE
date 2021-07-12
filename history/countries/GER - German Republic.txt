@@ -32,12 +32,12 @@ set_popularities = {
     anarcho_collectivist = 0
 	vanguardist = 0
 	social_nationalist = 0
-	democratic_socialist = 0
+	democratic_socialist = 11
 	radical_progressive = 25
 	market_liberal = 14
 	social_conservative = 37
-	authoritarian_despotist = 13
-	integralist = 11
+	authoritarian_paternalist = 13
+	integralist = 0
 }
 
 create_country_leader = {

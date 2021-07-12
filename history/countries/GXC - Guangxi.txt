@@ -13,21 +13,21 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = authoritarian_despotist
-	last_election = "1933.1.1"
+	ruling_party = authoritarian_paternalist
+	last_election = "1920.10.23"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_despotist = 100
+	authoritarian_paternalist = 100
 }
 
 create_country_leader = {
-	name = "Li Zongren"
-	desc = "POLITICS_LI_ZONGREN_DESC"
-	picture = "Portrait_Guangxi_Li_Zongren.dds"
+	name = "Shen Hongying"
+	desc = "POLITICS_SHEN_HONGYING_DESC"
+	picture = "Portrait_Guangxi_Shen_Hongying.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

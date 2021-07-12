@@ -57,7 +57,7 @@ create_country_leader = {
 	desc = "POLITICS_FERDINAND_I_DESC"
 	picture = "Portrait_Bulgaria_Ferdinand_I.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

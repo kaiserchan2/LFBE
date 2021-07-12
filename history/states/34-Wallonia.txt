@@ -2,27 +2,27 @@
 state={
 	id=34
 	name="STATE_34"
-	manpower = 2808006
+	manpower = 2717586
 	
 	state_category = large_city
 
 	history={
 		owner = BEL
 		victory_points = {
-			3516 5
+			13081 5
 		}
 		victory_points = { 11519 7 }
 		buildings = {
-			infrastructure = 7
+			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 4
-			air_base = 6
+			air_base = 1
 
 		}
 		add_core_of = BEL
 	}
 
 	provinces={
-		3516 9536 13081 11519
+		3516 9536 13081 11519 6537 9444 
 	}
 }

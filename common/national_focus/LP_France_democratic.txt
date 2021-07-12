@@ -25,7 +25,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_radical_victory
-		icon = GFX_goal_HOL_list_left
+		icon = GFX_ideology_social_liberal
 		x = 31
 		y = 0
 		cost = 0

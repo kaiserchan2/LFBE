@@ -7,20 +7,20 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = authoritarian_despotist
+	ruling_party = authoritarian_paternalist
 	last_election = "1927.11.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	authoritarian_despotist = 100
+	authoritarian_paternalist = 100
 }
 
 create_country_leader = {
 	name = "Mohammed V"
 	desc = "POLITICS_MOHAMMED_V_DESC"
 	picture = "Portrait_Morocco_Mohammed_V.dds"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }

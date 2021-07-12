@@ -1,15 +1,17 @@
 state={
 	id=801
 	name="STATE_801"
-	manpower = 329261
+	manpower = 304900
 	
 	state_category = town
 	
 	history={
 		owner = FRA
 		buildings = {
-			infrastructure = 7
-
+			infrastructure = 6
+            9909 = {
+				naval_base = 2
+			}	
 		}
 		victory_points = {
 			9909 3 

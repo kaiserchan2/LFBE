@@ -7,7 +7,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = SRG
+		owner = SGU
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
@@ -22,7 +22,7 @@ state={
 		victory_points = {
 			9557 3 
 		}
-		add_core_of = SRG
+		add_core_of = SGU
 	}
 
 	provinces={

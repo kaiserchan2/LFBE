@@ -9,7 +9,7 @@ state={
 		chromium=2 # was: 2
 	}
 	history={
-		owner = RAJ
+		owner = NEP
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -18,10 +18,10 @@ state={
 		victory_points = {
 			4987 3 
 		}
-		add_core_of = RAJ
+		add_core_of = NEP
 	}
 
 	provinces={
-		4386 4987 5310 7374 10825 10910 12892 
+		4386 4987 5310 7374 10825 10910 12892 10021 1898 5002 5157 3989 12708 
 	}
 }

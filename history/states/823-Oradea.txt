@@ -1,14 +1,14 @@
 state={
 	id=823
 	name="STATE_823"
-	manpower = 783786
+	manpower = 606056
 
 	state_category = large_town
 
 	history={
 		owner = HUN
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			industrial_complex = 1
 		}
 		victory_points = {
@@ -18,6 +18,6 @@ state={
 	}
 
 	provinces={
-		9687 713 3709 3696
+		9687 713 3709 3696 746
 	}
 }

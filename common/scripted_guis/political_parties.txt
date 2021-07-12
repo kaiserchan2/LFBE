@@ -20,8 +20,8 @@ scripted_gui = {
 			social_conservative_icon_visible = {
 				has_government = social_conservative
 			}
-			authoritarian_despotist_icon_visible = {
-				has_government = authoritarian_despotist
+			authoritarian_paternalist_icon_visible = {
+				has_government = authoritarian_paternalist
 			}
 			integralist_icon_visible = {
 				has_government = integralist

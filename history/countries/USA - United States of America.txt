@@ -75,7 +75,7 @@ set_popularities = {
 	radical_progressive = 21
 	market_liberal = 12
 	social_conservative = 24
-	authoritarian_despotist = 6
+	authoritarian_paternalist = 6
 	integralist = 7
 }
 

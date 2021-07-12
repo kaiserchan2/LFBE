@@ -43,9 +43,10 @@ set_technology = {
 
 set_convoys = 50
 
-create_faction = Bratislava_Accord
+create_faction = Bratislava_Pact
 add_to_faction = CZE
-add_to_faction = BUL
+add_to_faction = SER
+add_to_faction = GRE
 
 set_autonomy = {
 	target = POL
@@ -70,7 +71,7 @@ set_popularities = {
     radical_progressive = 21
 	market_liberal = 13
 	social_conservative = 27
-	authoritarian_despotist = 14
+	authoritarian_paternalist = 14
 	integralist = 10
 }
 
@@ -84,9 +85,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nikolai Bukharin"
-	desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
-	picture = "Portrait_Russia_Nikolai_Bukharin.dds"
+	name = "Lev Kamenev"
+	desc = "POLITICS_LEV_KAMENEV_DESC"
+	picture = "Portrait_Russia_Lev_Kamenev.dds"
 	expire = "1953.3.1"
 	ideology = vanguardist_subtype
 	traits = {}
@@ -102,9 +103,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Lev Trotsky"
-	desc = "POLITICS_LEV_TROTSKY_DESC"
-	picture = "Portrait_Russia_Lev_Trotsky.dds"
+	name = "Raphael Abramovitch"
+	desc = "POLITICS_RAPHAEL_ABRAMOVITCH_DESC"
+	picture = "Portrait_Russia_Raphael_Abramovitch.dds"
 	expire = "1953.3.1"
 	ideology = democratic_socialist_subtype
 	traits = {}
@@ -142,7 +143,7 @@ create_country_leader = {
 	desc = "POLITICS_MIKHAIL_II_DESC"
 	picture = "Portrait_Russia_Mikhail_II.dds"
 	expire = "1953.3.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

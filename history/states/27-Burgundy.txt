@@ -2,7 +2,7 @@
 state={
 	id=27
 	name="STATE_27"
-	manpower = 1031903
+	manpower = 1403491
 	
 	state_category = city
 	
@@ -18,9 +18,6 @@ state={
 		victory_points = {
 			3681 1 
 		}
-		victory_points = {
-			3650 1 
-		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
@@ -30,6 +27,6 @@ state={
 	}
 
 	provinces={
-		648 817 3652 11628 11794 3650 3669 3506 9625 3681 9644 667 9609 680
+		648 817 3652 11628 3650 3669 3506 9625 3681 9644 667 9609 680
 	}
 }

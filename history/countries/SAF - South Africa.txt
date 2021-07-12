@@ -29,55 +29,28 @@ set_technology = {
 
 set_convoys = 25
 
+set_autonomy = {
+	target = RHO
+	autonomous_state = autonomy_puppet
+}
+
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_paternalist
 	last_election = "1929.6.19"
-	election_frequency = 60
+	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-    anarcho_collectivist = 11
-	vanguardist = 11
-    radical_progressive = 6
-    market_liberal = 8
-	social_conservative = 31
-	authoritarian_despotist = 22
-	integralist = 11
+	authoritarian_paternalist = 100
 }
 
 create_country_leader = {
-	name = "Edward VIII"
-	desc = "POLITICS_EDWARD_VIII_DESC"
-	picture = "Portrait_SAF_Edward_VIII.dds"
+	name = "J. B. M. Hertzog"
+	desc = "POLITICS_JAMES_HERTZOG_DESC"
+	picture = "Portrait_SAF_James_Hertzog.dds"
 	expire = "1965.1.1"
-	ideology = radical_progressive_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Edward VIII"
-	desc = "POLITICS_EDWARD_VIII_DESC"
-	picture = "Portrait_SAF_Edward_VIII.dds"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Edward VIII"
-	desc = "POLITICS_EDWARD_VIII_DESC"
-	picture = "Portrait_SAF_Edward_VIII.dds"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Edward VIII"
-	desc = "POLITICS_EDWARD_VIII_DESC"
-	picture = "Portrait_SAF_Edward_VIII.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

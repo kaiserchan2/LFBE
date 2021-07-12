@@ -1,0 +1,21 @@
+state={
+	id=798
+	name="STATE_798" 
+	manpower = 604829
+	
+	state_category = large_town
+	
+	history={
+		owner = FRA
+		victory_points = { 3423 5 }
+		victory_points = { 9575 5 }
+		buildings = { 
+			infrastructure = 7
+			industrial_complex = 1
+		}
+	}
+
+	provinces={ 
+	    9575 3423
+	}
+}

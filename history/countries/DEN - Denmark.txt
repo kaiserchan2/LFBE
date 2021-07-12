@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_CHRISTIAN_X_DESC"
 	picture = "Portrait_Denmark_Christian_X.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

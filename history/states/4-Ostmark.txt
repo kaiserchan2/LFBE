@@ -1,0 +1,35 @@
+
+state={
+	id=4
+	name="STATE_4"
+	manpower = 4588836
+	resources={
+		oil=1 # was: 2
+	}
+	
+	state_category = metropolis
+	
+	history={
+		owner = SGU
+		victory_points = {
+			11666 25 
+		}
+		victory_points = {
+			9665 3
+		}
+		victory_points = {
+			732 5
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 6
+		}
+		add_core_of = SGU
+	}
+
+	provinces={
+		704 3718 6739 9527 11666 557 732 3703 6552 6708 6723 9665 11651 5283 543 11525
+	}
+}

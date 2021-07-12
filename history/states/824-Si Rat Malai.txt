@@ -1,0 +1,26 @@
+state={
+	id=824
+	name="STATE_824"
+	manpower = 673000
+
+	state_category = town
+
+	history={
+		owner = SIA
+		victory_points = {
+			7329 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			7329 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SIA
+	}
+
+	provinces={
+		12144 1291 7342 7329 12199 4355 1348
+	}
+}

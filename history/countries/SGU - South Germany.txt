@@ -37,7 +37,7 @@ set_popularities = {
 	radical_progressive = 24
 	market_liberal = 12
 	social_conservative = 31
-	authoritarian_despotist = 9
+	authoritarian_paternalist = 9
 	integralist = 9
 }
 
@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_RUPPRECHT_DESC"
 	picture = "Portrait_SGU_Rupprecht_I.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

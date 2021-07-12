@@ -2,7 +2,7 @@
 state={
 	id=181
 	name="STATE_181"
-	manpower = 1904600
+	manpower = 1340657
 	
 	state_category = town
 	
@@ -19,8 +19,8 @@ state={
 			3798 3
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 2
 		}
 		add_core_of = POR
 	}

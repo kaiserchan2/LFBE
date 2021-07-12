@@ -43,7 +43,11 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 }
 set_autonomy = {
-	target = UGA
+	target = ALB
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = TUN
 	autonomous_state = autonomy_puppet
 }
 
@@ -60,7 +64,7 @@ set_popularities = {
     radical_progressive = 20
 	market_liberal = 12
 	social_conservative = 25
-	authoritarian_despotist = 10
+	authoritarian_paternalist = 10
 	integralist = 5
 	social_nationalist = 4
 }
@@ -133,7 +137,7 @@ create_country_leader = {
 	desc = "POLITICS_UMBERTO_II_DESC"
 	picture = "Portrait_Italy_Umberto_II.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

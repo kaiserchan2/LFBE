@@ -43,10 +43,8 @@ country_event = {
 	
 	option = {
 	    name = france.10.a
-		add_ideas = conscription1
 	}
 	option = {
 	    name = france.10.b
-		add_ideas = conscription2
 	}
 }

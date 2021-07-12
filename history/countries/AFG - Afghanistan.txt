@@ -9,14 +9,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_despotist
+	ruling_party = authoritarian_paternalist
 	last_election = "1929.10.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	authoritarian_despotist = 100
+	authoritarian_paternalist = 100
 }
 
 create_country_leader = {
@@ -24,7 +24,7 @@ create_country_leader = {
 	desc = "POLITICS_MOHAMMED_NADIR_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Nadir.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

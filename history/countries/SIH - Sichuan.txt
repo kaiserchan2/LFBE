@@ -6,21 +6,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservative
-	last_election = "1933.1.1"
+	ruling_party = authoritarian_paternalist
+	last_election = "1917.4.20"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_conservative = 100
+	authoritarian_paternalist = 100
 }
 
 create_country_leader = {
-	name = "Liu Wenhui"
-	desc = "POLITICS_LIU_WENHUI_DESC"
-	picture = "Portrait_Sichuan_Liu_Wenhui.dds"
+	name = "Liu Cunhou"
+	desc = "POLITICS_LIU_CUNHOU_DESC"
+	picture = "Portrait_Sichuan_Liu_Cunhou.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }

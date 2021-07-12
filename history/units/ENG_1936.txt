@@ -435,7 +435,7 @@ air_wings = {
 			amount = 96
 		}
 	}	
-	122 = { 
+	338 = { 
 		### No. 13 Fighter Command, Newcastle -- Hawker Demons, Furys, Gloster Gauntlets
 		fighter_equipment_0 = {
 			owner = "ENG" 
@@ -459,7 +459,7 @@ air_wings = {
 			amount = 48
 		}
 	}
-	122 = { 
+	338 = { 
 		### No. 3 Bomber Command, Suffolk area -- HP Heyford, Harrows, AW Whitleys
 		tac_bomber_equipment_0 = {
 			owner = "ENG" 

@@ -11,4 +11,247 @@ focus_tree = {
 	}
 	
 	default = no
+	
+	continuous_focus_position = { x = 3000 y = 2000 }
+	
+	### Politics ###
+	
+	focus = {
+		id = SRG_revolution_at_crossroads
+		icon = GFX_generic_crisis
+		x = 10
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+		    has_country_flag = crisis_has_begun
+		}
+
+		bypass = {
+		    has_country_flag = crisis_has_begun
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_calm_masses
+		icon = GFX_goal_generic_propaganda
+		x = 8
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_revolution_at_crossroads
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_keep_military_in_check
+		icon = GFX_chain_army
+		x = 10
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_revolution_at_crossroads
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_maintain_bureaucratic_control
+		icon = GFX_generic_controlled_board
+		x = 12
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_revolution_at_crossroads
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_intensify_revolutionary_fervour
+		icon = GFX_flames_of_rebellion
+		x = 9
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_keep_military_in_check
+		}
+		prerequisite = {
+			focus = SRG_calm_masses
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_finish_off_dissenters
+		icon = GFX_generic_political_purge
+		x = 11
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_keep_military_in_check
+		}
+		prerequisite = {
+			focus = SRG_maintain_bureaucratic_control
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_coalition_reshuffled
+		icon = GFX_generic_revolutionary_government
+		x = 10
+		y = 3
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_intensify_revolutionary_fervour
+		}
+		prerequisite = {
+			focus = SRG_finish_off_dissenters
+		}
+		
+		available = {
+		    has_country_flag = new_coalition
+		}
+
+		bypass = {
+		    has_country_flag = new_coalition
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_nationalists_rule_supreme
+		icon = GFX_left_nationalists
+		x = 13
+		y = 4
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_coalition_reshuffled
+		}
+		
+		available = {
+		    has_country_flag = nationalist_victory
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_expel_cosmopolitans
+		icon = GFX_generic_expel_people
+		x = 12
+		y = 5
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_nationalists_rule_supreme
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_centralize_state_apparatus
+		icon = GFX_government_centralised_icon
+		x = 14
+		y = 5
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_nationalists_rule_supreme
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SRG_democrats_prevail
+		icon = GFX_ideology_social_democrat
+		x = 18
+		y = 4
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		prerequisite = {
+			focus = SRG_coalition_reshuffled
+		}
+		
+		available = {
+		    has_country_flag = democratic_victory
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
 }

@@ -19,18 +19,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_despotist
+	ruling_party = authoritarian_paternalist
 	last_election = "1931.6.30"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	authoritarian_despotist = 100
+	authoritarian_paternalist = 100
 }
 
 create_country_leader = {
-	name = "József Ágost"
+	name = "József Ágost I"
 	desc = "POLITICS_JOZSEF_AGOST_DESC"
 	picture = "Portrait_Hungary_Jozsef_Agost.dds"
 	expire = "1965.1.1"
@@ -39,7 +39,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "József Ágost"
+	name = "József Ágost I"
 	desc = "POLITICS_JOZSEF_AGOST_DESC"
 	picture = "Portrait_Hungary_Jozsef_Agost.dds"
 	expire = "1965.1.1"
@@ -48,7 +48,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "József Ágost"
+	name = "József Ágost I"
 	desc = "POLITICS_JOZSEF_AGOST_DESC"
 	picture = "Portrait_Hungary_Jozsef_Agost.dds"
 	expire = "1965.1.1"
@@ -57,16 +57,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "József Ágost"
+	name = "József Ágost I"
 	desc = "POLITICS_JOZSEF_AGOST_DESC"
 	picture = "Portrait_Hungary_Jozsef_Agost.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "József Ágost"
+	name = "József Ágost I"
 	desc = "POLITICS_JOZSEF_AGOST_DESC"
 	picture = "Portrait_Hungary_Jozsef_Agost.dds"
 	expire = "1965.1.1"

@@ -1,7 +1,7 @@
 state= {
 	id=803
 	name="STATE_803"
-	manpower = 142581
+	manpower = 167169
 	
 	state_category = rural
 
@@ -9,7 +9,7 @@ state= {
 		owner = FRA
 		victory_points = { 743 1 }
 		buildings = {
-			infrastructure = 5
+			infrastructure = 6
 		}
 		add_core_of = FRA
 	}

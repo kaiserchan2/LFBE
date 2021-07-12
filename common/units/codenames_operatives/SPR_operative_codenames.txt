@@ -1,7 +1,7 @@
 ﻿SPR_OPERATIVE_CODENAME_HISTORICAL = {
 	name = SPR_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { IBR CAT MEX }
+	for_countries = { SPA CAT MEX }
 
 	type = codename
 

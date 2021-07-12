@@ -6,7 +6,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = ENG
+		owner = FWA
+		add_core_of = FWA
 		buildings = {
 			infrastructure = 3
 			13014 ={

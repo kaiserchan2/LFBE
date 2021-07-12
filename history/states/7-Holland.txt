@@ -22,13 +22,13 @@ state={
 			arms_factory = 4
 			industrial_complex = 3
 			dockyard = 3
-			air_base = 3
+			air_base = 5
 			3314 = {
 				naval_base = 5
 
 			}
 			9431 = {
-				naval_base = 7
+				naval_base = 10
 
 			}
 
@@ -37,9 +37,9 @@ state={
 	}
 
 	provinces={
-		68 391 3211 3314 9498 9431 480
+		68 391 3211 3314 9498 9431
 	}
-	manpower=3564685
+	manpower=4026484
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

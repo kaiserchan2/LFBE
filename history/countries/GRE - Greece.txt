@@ -70,7 +70,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGIOS_II_DESC"
 	picture = "Portrait_Greece_Georgios_II.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

@@ -1,9 +1,9 @@
 state={
 	id=813
 	name="STATE_813"
-	manpower = 301272
+	manpower = 295660
 	
-	state_category = town
+	state_category = rural
 
 	history={
 		owner = POR
@@ -11,12 +11,8 @@ state={
 			6880 3
 		}
 		buildings = {
-			infrastructure = 6
-			dockyard = 1
+			infrastructure = 5
 			industrial_complex = 1
-			3790 = {
-				naval_base = 2
-			}
 		}
 		add_core_of = POR
 	}

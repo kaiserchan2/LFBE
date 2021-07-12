@@ -39,7 +39,6 @@ bookmarks = {
 
 			focuses = {
 			    FRA_radical_victory
-				FRA_maintain_hegemony
 			}
 		}
 		
@@ -67,9 +66,9 @@ bookmarks = {
 			}
 		}
 
-		"SAF" = {
-			history = "SAF_END_OF_BEAUTIFUL_EPOCH_DESC"
-			ideology = social_conservative
+		"TUR" = {
+			history = "TUR_END_OF_BEAUTIFUL_EPOCH_DESC"
+			ideology = market_liberal
 			ideas = {
 				
 			}
@@ -121,7 +120,7 @@ bookmarks = {
 		"PRS" = {
 			minor = yes
 			history = "PRS_END_OF_BEAUTIFUL_EPOCH_DESC"
-			ideology = authoritarian_despotist
+			ideology = authoritarian_paternalist
 			ideas = {
 				
 			}
@@ -146,18 +145,6 @@ bookmarks = {
 			minor = yes
 			history = "SWI_END_OF_BEAUTIFUL_EPOCH_DESC"
 			ideology = radical_progressive
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		
-		"AUS" = {
-			minor = yes
-			history = "AUS_END_OF_BEAUTIFUL_EPOCH_DESC"
-			ideology = authoritarian_despotist
 			ideas = {
 				
 			}

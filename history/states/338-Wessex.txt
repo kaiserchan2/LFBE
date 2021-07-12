@@ -2,12 +2,12 @@
 state={
 	id=338
 	name="STATE_338"
-	manpower = 2994090
+	manpower = 2537105
 	resources={
 		steel=9 # was: 16
 	}
 
-	state_category = large_city
+	state_category = large_town
 
 	history={
 		owner = ENG
@@ -19,7 +19,7 @@ state={
 			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 2
-			dockyard = 3
+			air_base = 6
 			540 = {
 				naval_base = 4
 			}

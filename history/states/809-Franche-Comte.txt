@@ -1,7 +1,7 @@
 state={
 	id=809
 	name="STATE_809" 
-	manpower = 652874
+	manpower = 753866
 	
 	state_category = large_town
 	
@@ -15,7 +15,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 1
 			industrial_complex = 1
 		}
 		add_core_of = FRA

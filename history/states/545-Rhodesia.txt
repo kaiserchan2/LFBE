@@ -1,13 +1,13 @@
 state={
 	id=545
 	
-	state_category = pastoral
+	state_category = large_town
 	
 	name="STATE_545"
 
 	history={
-		owner = BEA
-		add_core_of = BEA
+		owner = RHO
+		add_core_of = RHO
 		buildings = {
 			infrastructure = 3
 

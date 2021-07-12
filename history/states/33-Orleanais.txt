@@ -1,0 +1,27 @@
+
+state={
+	id=33
+	name="STATE_33"
+	manpower = 1380891
+	
+	state_category = large_town
+
+	history={
+		victory_points = {
+			3655 2
+		}
+		victory_points = {
+			512 3
+		}
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		651 3626 3655 6651 9629 11611 6644 669 512 3493 6518 6533 11631 6547 9507 6688
+	}
+}

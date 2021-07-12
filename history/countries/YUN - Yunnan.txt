@@ -6,21 +6,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservative
-	last_election = "1928.1.17"
+	ruling_party = authoritarian_paternalist
+	last_election = "1927.10.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	social_conservative = 100
+	authoritarian_paternalist = 100
 }
 
 create_country_leader = {
-	name = "Long Yun"
-	desc = "POLITICS_LONG_YUN_DESC"
-	picture = "Portrait_Yunnan_Long_Yun.dds"
+	name = "Yuan Zuming"
+	desc = "POLITICS_YUAN_ZUMING_DESC"
+	picture = "Portrait_Yunnan_Yuan_Zuming.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

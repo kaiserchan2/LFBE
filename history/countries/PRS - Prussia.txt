@@ -20,7 +20,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_despotist
+	ruling_party = authoritarian_paternalist
 	last_election = "1912.1.12"
 	election_frequency = 48
 	elections_allowed = no
@@ -34,7 +34,7 @@ set_popularities = {
     radical_progressive = 0
     market_liberal = 15
 	social_conservative = 33
-	authoritarian_despotist = 37
+	authoritarian_paternalist = 37
 	integralist = 15
 }
 
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_III_DESC"
 	picture = "Portrait_Prussia_Wilhelm_III.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 

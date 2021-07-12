@@ -1,9 +1,9 @@
 state={
 	id=830
 	name="STATE_830"
-	manpower = 139467
+	manpower = 126015
 	
-	state_category = pastoral
+	state_category = rural
 
 	history={
 		owner = SLV

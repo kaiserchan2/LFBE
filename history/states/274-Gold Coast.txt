@@ -3,7 +3,7 @@ state={
 	name="STATE_274"
 
 	history={
-		owner = BEL
+		owner = FWA
 		victory_points = {
 			10862 1 
 		}
@@ -14,6 +14,7 @@ state={
 
 			}
 	    }
+		add_core_of = FWA
 	}
 
 	provinces={

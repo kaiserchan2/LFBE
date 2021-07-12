@@ -1,4 +1,4 @@
-capital = 272
+capital = 772
 
 oob = "FEA"
 set_naval_oob = "FEA_naval"
@@ -34,14 +34,14 @@ set_war_support = 0.25
 add_political_power = 35
 
 set_politics = {
-	ruling_party = authoritarian_despotist
+	ruling_party = authoritarian_paternalist
 	last_election = "1924.10.16"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    authoritarian_despotist = 100
+    authoritarian_paternalist = 100
 }
 
 create_country_leader = {
@@ -49,6 +49,6 @@ create_country_leader = {
 	desc = "POLITICS_RAPHAEL_ANTONETTI_DESC"
 	picture = "Portrait_FEA_Raphael_Antonetti.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }

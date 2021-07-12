@@ -167,7 +167,7 @@ ideas = {
 				has_government = radical_progressive
 				has_government = social_conservative
 				has_government = market_liberal
-				has_government = authoritarian_despotist
+				has_government = authoritarian_paternalist
 			}
 			
 			removal_cost = -1

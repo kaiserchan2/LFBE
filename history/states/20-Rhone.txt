@@ -2,13 +2,13 @@
 state={
 	id=20
 	name="STATE_20" 
-	manpower = 1959570
+	manpower = 2545623
 	resources={
 		steel=60 # was: 128
 		aluminium=35 # was: 72
 	}
 
-	state_category = large_city
+	state_category = city
 
 	history={
 		owner = FRA
@@ -19,12 +19,12 @@ state={
 			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 2
-			air_base = 8
+			air_base = 4
 		}
 		add_core_of = FRA
 	}
 
 	provinces={
-		3770 6613 6786 11593 9732 11716
+		3770 6613 6786 11593 9732 11716 9728 9590 6639 641 11794
 	}
 }

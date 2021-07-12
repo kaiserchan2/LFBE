@@ -10,11 +10,8 @@ state={
 	}
 
 	history={
-		owner = BEA
-		add_core_of = BEA
-		victory_points = {
-			5199 1
-		}
+		owner = FSA
+		add_core_of = FSA
 		buildings = {
 			infrastructure = 3
 
@@ -22,7 +19,7 @@ state={
 	}
 
 	provinces={
-		1846 5199 5221 10594 10930 13173 12677 697 7872 10538
+		1846 5221 10594 10930 13173
 	}
 	manpower=1055053
 	buildings_max_level_factor=1.000

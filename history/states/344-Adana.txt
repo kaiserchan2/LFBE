@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = FRA
+		owner = FLE
 		victory_points = {
 			9893 1
 		}
@@ -27,6 +27,7 @@ state={
 				naval_base = 3
 			}
 		}
+		add_core_of = FLE
 	}
 
 	provinces={

@@ -68,11 +68,19 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 }
 set_autonomy = {
-	target = TUN
+	target = FSA
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = RAJ
 	autonomous_state = autonomy_puppet
 }
 set_autonomy = {
 	target = FIC
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = FLE
 	autonomous_state = autonomy_puppet
 }
 
@@ -93,7 +101,7 @@ set_popularities = {
 	radical_progressive = 22
 	market_liberal = 23
 	social_conservative = 17
-	authoritarian_despotist = 9
+	authoritarian_paternalist = 9
 	integralist = 5
 }
 
@@ -129,7 +137,7 @@ create_country_leader = {
 	desc = "POLITICS_NAPOLEON_VI_DESC"
 	picture = "Portrait_France_Napoleon_VI.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_despotist_subtype
+	ideology = authoritarian_paternalist_subtype
 	traits = {}
 }
 
